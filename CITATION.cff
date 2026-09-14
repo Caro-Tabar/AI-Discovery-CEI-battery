@@ -1,0 +1,13 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "CEI-Scout"
+abstract: >-
+  Physics-informed active learning for screening non-fluorinated sulfur
+  additives in high-voltage LNMO electrolytes.
+authors:
+  - family-names: "Tabar"
+    given-names: "Caro"
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/Caro-Tabar/AI-Discovery-CEI-battery"

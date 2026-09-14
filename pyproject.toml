@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cei-scout"
+version = "0.1.0"
+description = "Physics-informed active learning for screening non-fluorinated sulfur additives in high-voltage LNMO electrolytes."
+authors = [
+    { name = "Caro Tabar", email = "Caro.m.tabar@gmail.com" },
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Caro-Tabar/AI-Discovery-CEI-battery"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["cei_scout*"]
+namespaces = false
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+indent-width = 4
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+docstring-code-format = true
+
+[tool.pytest]
+minversion = "9.0"
+addopts = [
+    "-ra",
+    "--cov=cei_scout",
+    "--cov-report=term-missing:skip-covered",
+    "--cov-report=xml",
+]
+testpaths = ["tests"]
+strict_config = true
+strict_markers = true
+strict_parametrization_ids = true
+strict_xfail = true
+
+[tool.coverage.run]
+branch = true
+source = ["cei_scout"]
+relative_files = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+precision = 1
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src/cei_scout"]
+mypy_path = "src"
+
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+
+warn_return_any = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_equality = true
+
+show_error_codes = true
+pretty = true

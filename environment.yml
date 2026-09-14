@@ -1,0 +1,15 @@
+name: cei-scout
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - "setuptools>=77"
+  - ruff
+  - "pytest>=9"
+  - pytest-cov
+  - coverage
+  - mypy
+  - pre-commit

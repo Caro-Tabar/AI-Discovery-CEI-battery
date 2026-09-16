@@ -1,0 +1,8 @@
+scope,candidate_family,candidate_count,unique_inchikey_count,molecular_weight_min_g_mol,molecular_weight_median_g_mol,molecular_weight_max_g_mol,rotatable_bonds_min,rotatable_bonds_median,rotatable_bonds_max,relaxed_candidate_count
+overall,all,60,60,76.164,133.698,217.29,0,2.0,8,0
+family,sulfite,10,10,108.118,130.166,194.296,0,2.5,8,0
+family,sulfate_or_sultone,10,10,120.129,137.158,182.241,0,0.0,4,0
+family,sulfone_or_sulfoxide,11,11,78.136,108.162,178.297,0,1.0,6,0
+family,thioether_or_disulfide,11,11,76.164,118.245,186.279,1,2.0,7,0
+family,sulfonate_or_sulfonamide,9,9,95.123,157.194,199.275,0,2.0,5,0
+family,mixed_s_o_n,9,9,121.161,163.198,217.29,0,3.0,6,0

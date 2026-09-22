@@ -17,3 +17,4 @@ dependencies:
   - "pandas=2.3.*"
   - "pyarrow=25.*"
   - networkx=3.6.1
+  - types-networkx=3.6.1.20260624

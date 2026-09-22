@@ -1,0 +1,39 @@
+{
+  "first_charge": -1,
+  "first_record_id": "libe-136123",
+  "first_spin_multiplicity": 2,
+  "record_count": 17190,
+  "thermo_keys": [
+    "eV",
+    "quasi_rrho_eV",
+    "raw",
+    "shifted_rrho_eV"
+  ],
+  "top_level_keys": [
+    "bonds",
+    "charge",
+    "chemical_system",
+    "composition",
+    "elements",
+    "formula_alphabetical",
+    "molecule",
+    "molecule_graph",
+    "molecule_id",
+    "number_atoms",
+    "number_elements",
+    "partial_charges",
+    "partial_spins",
+    "point_group",
+    "species",
+    "spin_multiplicity",
+    "thermo",
+    "vibration",
+    "xyz"
+  ],
+  "top_level_type": "list",
+  "vibration_keys": [
+    "IR_intensities",
+    "frequencies",
+    "mode_vectors"
+  ]
+}

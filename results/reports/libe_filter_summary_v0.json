@@ -1,0 +1,25 @@
+{
+  "benchmark_selected_count": 133,
+  "benchmark_target_size": 300,
+  "family_counts_matched": {
+    "C-H-O": 131,
+    "C-O": 2
+  },
+  "family_counts_selected": {
+    "C-H-O": 131,
+    "C-O": 2
+  },
+  "fully_matched_record_count": 133,
+  "neutral_record_count": 5868,
+  "rejection_counts": {
+    "disallowed_element": 2121,
+    "mass_out_of_range": 137,
+    "missing_anion_match": 22,
+    "missing_cation_match": 70,
+    "not_closed_shell": 3385
+  },
+  "source_record_count": 17190,
+  "unique_scaffolds_matched": 30,
+  "unique_scaffolds_selected": 30,
+  "used_all_eligible_records": true
+}

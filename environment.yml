@@ -16,3 +16,4 @@ dependencies:
   - rdkit=2026.03.*
   - "pandas=2.3.*"
   - "pyarrow=25.*"
+  - networkx=3.6.1

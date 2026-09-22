@@ -1,0 +1,10 @@
+metric,libe_benchmark,candidate_pool,candidate_minus_libe
+molecular_weight_g_mol_min,70.047,76.164,6.117000000000004
+molecular_weight_g_mol_median,86.09,133.6985,47.60849999999999
+molecular_weight_g_mol_mean,97.9335939849624,137.19815,39.2645560150376
+molecular_weight_g_mol_max,178.14000000000001,217.29,39.14999999999998
+fraction_contains_C,1.0,1.0,0.0
+fraction_contains_H,0.9849624060150376,1.0,0.015037593984962405
+fraction_contains_N,0.0,0.23333333333333334,0.23333333333333334
+fraction_contains_O,1.0,0.8166666666666667,-0.18333333333333335
+fraction_contains_S,0.0,1.0,1.0

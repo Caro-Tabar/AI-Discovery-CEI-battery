@@ -1,0 +1,17 @@
+{
+  "article_id": 14226464,
+  "doi": "10.6084/m9.figshare.14226464.v2",
+  "file_id": 28071129,
+  "file_name": "libe.json",
+  "license": "CC BY 4.0",
+  "provenance_id": "libe_figshare_v2_raw",
+  "provider": "Figshare",
+  "retrieved_at_utc": "2026-09-22T03:23:43.798893+00:00",
+  "sha256": "86eb6189dc53ba13b4af3b155bbec616e7952920f5ba94aab2fe333f83820d22",
+  "size_bytes": 285045473,
+  "source_name": "Lithium-Ion Battery Electrolyte (LIBE) dataset",
+  "source_url": "https://figshare.com/articles/dataset/Lithium-Ion_Battery_Electrolyte_LIBE_dataset/14226464",
+  "source_version": "2",
+  "transformation": "None; raw upstream libe.json downloaded unchanged.",
+  "upstream_md5": "5d78a6a3af69cf8a209506ba7389eed2"
+}

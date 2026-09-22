@@ -1,0 +1,169 @@
+schema_version: "1.0"
+registry_status: rules_frozen_candidates_unresolved
+source_retrieval_date: "2026-09-15"
+
+inclusion_filters:
+  allowed_elements:
+    - C
+    - H
+    - N
+    - O
+    - S
+  required_elements:
+    - C
+    - S
+  formal_charge: 0
+  radical_electrons: 0
+  molecular_weight_g_mol:
+    minimum: 70.0
+    maximum: 220.0
+    inclusive: true
+  maximum_rotatable_bonds: 8
+  single_connected_component: true
+
+exclusion_filters:
+  invalid_valence:
+    rejection_reason: invalid_valence
+    rule: Reject when molecular parsing or valence sanitization fails.
+
+  mixture:
+    rejection_reason: mixture
+    rule: Reject structures containing more than one disconnected component.
+
+  duplicate_stereoisomer:
+    rejection_reason: duplicate
+    rule: >-
+      After standardization, retain one representative for structures sharing
+      the same standardized connectivity. Stereoisomers are not separate
+      candidates in version 1.
+
+  peroxide:
+    rejection_reason: peroxide
+    rule: Reject molecules containing an oxygen-oxygen single bond.
+    smarts_any:
+      - '[#8X2]-[#8X2]'
+
+  azide:
+    rejection_reason: azide
+    rule: Reject covalent organic azide motifs.
+    smarts_any:
+      - '[#6]-[#7]=[#7+]=[#7-]'
+      - '[#6]-[#7-]-[#7+]#[#7]'
+
+  energetic_motif:
+    rejection_reason: energetic_motif
+    rule: >-
+      Reject explicit nitrate-ester, nitramine, diazo, or diazonium motifs.
+      These alerts define computational scope and are not handling advice.
+    smarts_any:
+      - '[#6]-[#8]-[#7+](=[#8])-[#8-]'
+      - '[#7]-[#7+](=[#8])-[#8-]'
+      - '[#6]=[#7+]=[#7-]'
+      - '[#6]-[#7+]#[#7]'
+
+family_assignment:
+  match_policy: first_matching_family
+  use_chirality: false
+  priority:
+    - sulfate_or_sultone
+    - sulfonate_or_sulfonamide
+    - sulfone_or_sulfoxide
+    - sulfite
+    - thioether_or_disulfide
+    - mixed_s_o_n
+
+  families:
+    sulfate_or_sultone:
+      description: Sulfate diesters and cyclic sulfonate esters.
+      smarts_any:
+        - '[#8X2]-[#16X4;v6](=[#8X1])(=[#8X1])-[#8X2]'
+        - '[#16X4;v6;r](=[#8X1])(=[#8X1])-[#8X2;r]'
+
+    sulfonate_or_sulfonamide:
+      description: Carbon-bound sulfonate esters and sulfonamides.
+      smarts_any:
+        - '[#6]-[#16X4;v6](=[#8X1])(=[#8X1])-[#8X2]-[#6]'
+        - '[#6]-[#16X4;v6](=[#8X1])(=[#8X1])-[#7X3]'
+
+    sulfone_or_sulfoxide:
+      description: Carbon-bound sulfones and sulfoxides.
+      smarts_any:
+        - '[#6]-[#16X4;v6](=[#8X1])(=[#8X1])-[#6]'
+        - '[#6]-[#16X3;v4](=[#8X1])-[#6]'
+
+    sulfite:
+      description: Acyclic or cyclic sulfite esters.
+      smarts_any:
+        - '[#8X2]-[#16X3;v4](=[#8X1])-[#8X2]'
+
+    thioether_or_disulfide:
+      description: Carbon-bound thioethers and organic disulfides.
+      smarts_any:
+        - '[#6]-[#16X2;v2]-[#6]'
+        - '[#6]-[#16X2;v2]-[#16X2;v2]-[#6]'
+
+    mixed_s_o_n:
+      description: >-
+        Remaining sulfur compounds containing both oxygen and nitrogen after
+        all higher-priority family rules have been evaluated.
+      fallback_only: true
+      smarts_all:
+        - '[#16]'
+        - '[#8]'
+        - '[#7]'
+
+benchmark_seeds:
+  - preferred_name: Ethylene sulfate
+    aliases:
+      - DTD
+      - 1,3,2-dioxathiolane 2,2-dioxide
+    family: sulfate_or_sultone
+    pubchem_cid: 14075
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/14075
+    role_status: pending_p05_22
+
+  - preferred_name: Sulfolane
+    aliases:
+      - Tetramethylene sulfone
+    family: sulfone_or_sulfoxide
+    pubchem_cid: 31347
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/31347
+    role_status: pending_p05_22
+
+  - preferred_name: Ethylene sulfite
+    aliases:
+      - Glycol sulfite
+    family: sulfite
+    pubchem_cid: 77342
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/77342
+    role_status: pending_p05_22
+
+  - preferred_name: 1,3-Propane sultone
+    aliases:
+      - Propane sultone
+    family: sulfate_or_sultone
+    pubchem_cid: 14264
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/14264
+    role_status: pending_p05_22
+
+  - preferred_name: Trimethylene sulfite
+    aliases:
+      - 1,3-Propylene sulfite
+    family: sulfite
+    pubchem_cid: 77839
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/77839
+    role_status: pending_p05_22
+
+  - preferred_name: Dimethyl sulfite
+    aliases: []
+    family: sulfite
+    pubchem_cid: 69223
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/69223
+    role_status: pending_p05_22
+
+  - preferred_name: Diethyl sulfite
+    aliases: []
+    family: sulfite
+    pubchem_cid: 12197
+    source_url: https://pubchem.ncbi.nlm.nih.gov/compound/12197
+    role_status: pending_p05_22

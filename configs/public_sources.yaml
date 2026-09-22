@@ -1,0 +1,23 @@
+sources:
+  libe:
+    title: "Lithium-Ion Battery Electrolyte (LIBE) dataset"
+    provider: "Figshare"
+    article_id: 14226464
+    version: 2
+    concept_doi: "10.6084/m9.figshare.14226464"
+    version_doi: "10.6084/m9.figshare.14226464.v2"
+    license: "CC BY 4.0"
+    published_date: "2021-05-19"
+    landing_page: "https://figshare.com/articles/dataset/Lithium-Ion_Battery_Electrolyte_LIBE_dataset/14226464"
+    version_api: "https://api.figshare.com/v2/articles/14226464/versions/2"
+    file_name: "libe.json"
+    reported_record_count: 17190
+    reported_method: "omegaB97X-V/def2-TZVPPD/SMD"
+    sha256: "86eb6189dc53ba13b4af3b155bbec616e7952920f5ba94aab2fe333f83820d22"
+    retrieval_date: "2026-09-22T03:23:43.798893+00:00"
+    citation: >-
+      Spotte-Smith, Evan Walter Clark; Blau, Samuel M.; Xie, Xiaowei;
+      Patel, Hetal; Wen, Mingjian; Wood, Brandon; Dwaraknath, Shyam;
+      Persson, Kristin (2021). Lithium-Ion Battery Electrolyte (LIBE)
+      dataset. figshare. Dataset.
+      https://doi.org/10.6084/m9.figshare.14226464.v2

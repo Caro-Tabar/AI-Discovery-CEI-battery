@@ -1,0 +1,65 @@
+source_entry_id,preferred_name,candidate_family,source_name,source_identifier,source_url,retrieval_date,source_version,identity_status
+sulfite-src-001,Ethylene sulfite,sulfite,PubChem,CID:77342,https://pubchem.ncbi.nlm.nih.gov/compound/77342,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-002,"1,2-Propylene sulfite",sulfite,PubChem,CID:15117,https://pubchem.ncbi.nlm.nih.gov/compound/15117,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-003,Trimethylene sulfite,sulfite,PubChem,CID:77839,https://pubchem.ncbi.nlm.nih.gov/compound/77839,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-004,"4,5-Dimethyl ethylene sulfite",sulfite,PubChem,CID:97910,https://pubchem.ncbi.nlm.nih.gov/compound/97910,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-005,Dimethyl sulfite,sulfite,PubChem,CID:69223,https://pubchem.ncbi.nlm.nih.gov/compound/69223,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-006,Ethyl methyl sulfite,sulfite,PubChem,CID:66305,https://pubchem.ncbi.nlm.nih.gov/compound/66305,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-007,Diethyl sulfite,sulfite,PubChem,CID:12197,https://pubchem.ncbi.nlm.nih.gov/compound/12197,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-008,Dipropyl sulfite,sulfite,PubChem,CID:136434,https://pubchem.ncbi.nlm.nih.gov/compound/136434,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-009,Diisopropyl sulfite,sulfite,PubChem,CID:536816,https://pubchem.ncbi.nlm.nih.gov/compound/536816,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+sulfite-src-010,Dibutyl sulfite,sulfite,PubChem,CID:69384,https://pubchem.ncbi.nlm.nih.gov/compound/69384,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-011,Ethylene sulfate,sulfate_or_sultone,PubChem,14075,https://pubchem.ncbi.nlm.nih.gov/compound/14075,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-012,Propylene sulfate,sulfate_or_sultone,PubChem,9964107,https://pubchem.ncbi.nlm.nih.gov/compound/9964107,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-013,Trimethylene sulfate,sulfate_or_sultone,PubChem,70623,https://pubchem.ncbi.nlm.nih.gov/compound/70623,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-014,"1,3-Propane sultone",sulfate_or_sultone,PubChem,14264,https://pubchem.ncbi.nlm.nih.gov/compound/14264,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-015,"1,4-Butane sultone",sulfate_or_sultone,PubChem,15411,https://pubchem.ncbi.nlm.nih.gov/compound/15411,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-016,"1,3-Propene sultone",sulfate_or_sultone,PubChem,10898703,https://pubchem.ncbi.nlm.nih.gov/compound/10898703,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-017,Dimethyl sulfate,sulfate_or_sultone,PubChem,6497,https://pubchem.ncbi.nlm.nih.gov/compound/6497,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-018,Diethyl sulfate,sulfate_or_sultone,PubChem,6163,https://pubchem.ncbi.nlm.nih.gov/compound/6163,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-019,Diisopropyl sulfate,sulfate_or_sultone,PubChem,18096,https://pubchem.ncbi.nlm.nih.gov/compound/18096,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-020,Ethyl methyl sulfate,sulfate_or_sultone,PubChem,69945,https://pubchem.ncbi.nlm.nih.gov/compound/69945,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-021,Sulfolane,sulfone_or_sulfoxide,PubChem,31347,https://pubchem.ncbi.nlm.nih.gov/compound/31347,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-022,3-Methylsulfolane,sulfone_or_sulfoxide,PubChem,79119,https://pubchem.ncbi.nlm.nih.gov/compound/79119,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-023,Dimethyl sulfone,sulfone_or_sulfoxide,PubChem,6213,https://pubchem.ncbi.nlm.nih.gov/compound/6213,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-024,Ethyl methyl sulfone,sulfone_or_sulfoxide,PubChem,79059,https://pubchem.ncbi.nlm.nih.gov/compound/79059,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-025,Diethyl sulfone,sulfone_or_sulfoxide,PubChem,69004,https://pubchem.ncbi.nlm.nih.gov/compound/69004,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-026,Dipropyl sulfone,sulfone_or_sulfoxide,PubChem,11709,https://pubchem.ncbi.nlm.nih.gov/compound/11709,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-027,Dibutyl sulfone,sulfone_or_sulfoxide,PubChem,69014,https://pubchem.ncbi.nlm.nih.gov/compound/69014,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-028,Dimethyl sulfoxide,sulfone_or_sulfoxide,PubChem,679,https://pubchem.ncbi.nlm.nih.gov/compound/679,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-029,Ethyl methyl sulfoxide,sulfone_or_sulfoxide,PubChem,121148,https://pubchem.ncbi.nlm.nih.gov/compound/121148,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-030,Diethyl sulfoxide,sulfone_or_sulfoxide,PubChem,6263,https://pubchem.ncbi.nlm.nih.gov/compound/6263,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-031,Tetramethylene sulfoxide,sulfone_or_sulfoxide,PubChem,1128,https://pubchem.ncbi.nlm.nih.gov/compound/1128,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-032,3-Sulfolene,sulfone_or_sulfoxide,PubChem,6498,https://pubchem.ncbi.nlm.nih.gov/compound/6498,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-033,Ethyl methyl sulfide,thioether_or_disulfide,PubChem,12230,https://pubchem.ncbi.nlm.nih.gov/compound/12230,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-034,Diethyl sulfide,thioether_or_disulfide,PubChem,9609,https://pubchem.ncbi.nlm.nih.gov/compound/9609,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-035,Diisopropyl sulfide,thioether_or_disulfide,PubChem,12264,https://pubchem.ncbi.nlm.nih.gov/compound/12264,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-036,Allyl methyl sulfide,thioether_or_disulfide,PubChem,66282,https://pubchem.ncbi.nlm.nih.gov/compound/66282,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-037,Diallyl sulfide,thioether_or_disulfide,PubChem,11617,https://pubchem.ncbi.nlm.nih.gov/compound/11617,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-038,Thioanisole,thioether_or_disulfide,PubChem,7520,https://pubchem.ncbi.nlm.nih.gov/compound/7520,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-039,Diphenyl sulfide,thioether_or_disulfide,PubChem,8766,https://pubchem.ncbi.nlm.nih.gov/compound/8766,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-040,Dimethyl disulfide,thioether_or_disulfide,PubChem,12232,https://pubchem.ncbi.nlm.nih.gov/compound/12232,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-041,Diethyl disulfide,thioether_or_disulfide,PubChem,8077,https://pubchem.ncbi.nlm.nih.gov/compound/8077,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-042,Dipropyl disulfide,thioether_or_disulfide,PubChem,12377,https://pubchem.ncbi.nlm.nih.gov/compound/12377,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-043,Dibutyl disulfide,thioether_or_disulfide,PubChem,12386,https://pubchem.ncbi.nlm.nih.gov/compound/12386,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-044,Diallyl disulfide,thioether_or_disulfide,PubChem,16590,https://pubchem.ncbi.nlm.nih.gov/compound/16590,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-045,Methyl methanesulfonate,sulfonate_or_sulfonamide,PubChem,4156,https://pubchem.ncbi.nlm.nih.gov/compound/4156,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-046,Ethyl methanesulfonate,sulfonate_or_sulfonamide,PubChem,6113,https://pubchem.ncbi.nlm.nih.gov/compound/6113,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-047,Propyl methanesulfonate,sulfonate_or_sulfonamide,PubChem,74705,https://pubchem.ncbi.nlm.nih.gov/compound/74705,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-048,3-(Methylsulfanyl)propyl methanesulfonate,sulfonate_or_sulfonamide,PubChem,22931856,https://pubchem.ncbi.nlm.nih.gov/compound/22931856,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-049,Methanesulfonamide,sulfonate_or_sulfonamide,PubChem,72879,https://pubchem.ncbi.nlm.nih.gov/compound/72879,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-050,Benzenesulfonamide,sulfonate_or_sulfonamide,PubChem,7370,https://pubchem.ncbi.nlm.nih.gov/compound/7370,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-051,p-Toluenesulfonamide,sulfonate_or_sulfonamide,PubChem,6269,https://pubchem.ncbi.nlm.nih.gov/compound/6269,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-052,N-Methyl-p-toluenesulfonamide,sulfonate_or_sulfonamide,PubChem,12543,https://pubchem.ncbi.nlm.nih.gov/compound/12543,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-053,N-Ethyl-p-toluenesulfonamide,sulfonate_or_sulfonamide,PubChem,6637,https://pubchem.ncbi.nlm.nih.gov/compound/6637,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-054,N-(tert-Butyl)-p-toluenesulfonamide,sulfonate_or_sulfonamide,PubChem,246472,https://pubchem.ncbi.nlm.nih.gov/compound/246472,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-055,L-Methionine,mixed_s_o_n,PubChem,6137,https://pubchem.ncbi.nlm.nih.gov/compound/6137,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-056,L-Ethionine,mixed_s_o_n,PubChem,25674,https://pubchem.ncbi.nlm.nih.gov/compound/25674,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-057,L-Cysteine,mixed_s_o_n,PubChem,5862,https://pubchem.ncbi.nlm.nih.gov/compound/5862,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-058,Penicillamine,mixed_s_o_n,PubChem,5852,https://pubchem.ncbi.nlm.nih.gov/compound/5852,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-059,N-Acetyl-L-cysteine,mixed_s_o_n,PubChem,12035,https://pubchem.ncbi.nlm.nih.gov/compound/12035,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-060,N-Acetyl-DL-cysteine,mixed_s_o_n,PubChem,581,https://pubchem.ncbi.nlm.nih.gov/compound/581,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-061,Captopril,mixed_s_o_n,PubChem,44093,https://pubchem.ncbi.nlm.nih.gov/compound/44093,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-062,Rhodanine,mixed_s_o_n,PubChem,1201546,https://pubchem.ncbi.nlm.nih.gov/compound/1201546,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-063,Glycyl-L-methionine,mixed_s_o_n,PubChem,151282,https://pubchem.ncbi.nlm.nih.gov/compound/151282,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11
+source-064,N-(Aminocarbonyl)-L-cysteine,mixed_s_o_n,PubChem,90546,https://pubchem.ncbi.nlm.nih.gov/compound/90546,2026-09-15,PubChem-live-2026-09-15,identity_pending_p05_11

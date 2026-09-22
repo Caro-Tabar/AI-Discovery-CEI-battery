@@ -1,0 +1,230 @@
+[
+  {
+    "charge": -1,
+    "chemical_system": "C-F-H-O",
+    "composition": {
+      "C": 3.0,
+      "F": 1.0,
+      "H": 3.0,
+      "O": 3.0
+    },
+    "elements": [
+      "C",
+      "F",
+      "H",
+      "O"
+    ],
+    "formula_alphabetical": "C3 F1 H3 O3",
+    "molecule_id": "libe-136123",
+    "species": [
+      "O",
+      "C",
+      "C",
+      "O",
+      "O",
+      "C",
+      "H",
+      "H",
+      "F",
+      "H"
+    ],
+    "spin_multiplicity": 2,
+    "thermo": {
+      "eV": {
+        "electronic_energy": -12019.656801582447,
+        "free_energy": -12018.858665998905,
+        "total_enthalpy": 1.8761044224000003,
+        "total_entropy": 0.0036155252016000002
+      },
+      "quasi_rrho_eV": {
+        "electronic_energy": -12019.656801582447,
+        "free_energy": -12018.874884988762,
+        "total_enthalpy": 1.8760815292512556,
+        "total_entropy": 0.0036550320099699657
+      },
+      "raw": {
+        "electronic_energy_Ha": -441.714179304418,
+        "rotational_enthalpy_kcal/mol": 0.889,
+        "rotational_entropy_cal/molK": 27.66,
+        "total_enthalpy_kcal/mol": 43.264,
+        "total_entropy_cal/molK": 83.376,
+        "translational_enthalpy_kcal/mol": 0.889,
+        "translational_entropy_cal/molK": 39.892,
+        "vibrational_enthalpy_kcal/mol": 40.894,
+        "vibrational_entropy_cal/molK": 15.824
+      },
+      "shifted_rrho_eV": {
+        "electronic_energy": -12019.656801582447,
+        "free_energy": -12018.876184784183,
+        "total_enthalpy": 1.8763073192542294,
+        "total_entropy": 0.003660148848557422
+      }
+    },
+    "xyz": [
+      [
+        2.5396195303,
+        -1.3022340768,
+        -0.1902825059
+      ],
+      [
+        -1.3906975981,
+        0.0275118621,
+        -0.3497457445
+      ],
+      [
+        1.2683803281,
+        -0.9699237674,
+        0.0698005996
+      ],
+      [
+        -2.5445821499,
+        0.1586400738,
+        -0.1098155224
+      ],
+      [
+        -0.4128884673,
+        0.8536158497,
+        -0.0089450756
+      ],
+      [
+        0.9152342157,
+        0.4443870007,
+        -0.3875762835
+      ],
+      [
+        0.9826634471,
+        -0.9719847286,
+        1.155348665
+      ],
+      [
+        0.4902134609,
+        -1.6186308346,
+        -0.4209833799
+      ],
+      [
+        0.9776077067,
+        0.5562626864,
+        -1.7672642861
+      ],
+      [
+        1.5724595265,
+        1.2066659347,
+        0.0323255334
+      ]
+    ]
+  },
+  {
+    "charge": -1,
+    "chemical_system": "C-F-H-O",
+    "composition": {
+      "C": 3.0,
+      "F": 1.0,
+      "H": 3.0,
+      "O": 3.0
+    },
+    "elements": [
+      "C",
+      "F",
+      "H",
+      "O"
+    ],
+    "formula_alphabetical": "C3 F1 H3 O3",
+    "molecule_id": "libe-136151",
+    "species": [
+      "O",
+      "C",
+      "O",
+      "O",
+      "C",
+      "C",
+      "F",
+      "H",
+      "H",
+      "H"
+    ],
+    "spin_multiplicity": 2,
+    "thermo": {
+      "eV": {
+        "electronic_energy": -12021.701146342099,
+        "free_energy": -12020.940606101978,
+        "total_enthalpy": 1.8568941261,
+        "total_entropy": 0.0036771889518
+      },
+      "quasi_rrho_eV": {
+        "electronic_energy": -12021.701146342099,
+        "free_energy": -12020.95075379234,
+        "total_enthalpy": 1.856896665000473,
+        "total_entropy": 0.0036964153015815173
+      },
+      "raw": {
+        "electronic_energy_Ha": -441.789307578264,
+        "rotational_enthalpy_kcal/mol": 0.889,
+        "rotational_entropy_cal/molK": 27.438,
+        "total_enthalpy_kcal/mol": 42.821,
+        "total_entropy_cal/molK": 84.798,
+        "translational_enthalpy_kcal/mol": 0.889,
+        "translational_entropy_cal/molK": 39.892,
+        "vibrational_enthalpy_kcal/mol": 40.451,
+        "vibrational_entropy_cal/molK": 17.469
+      },
+      "shifted_rrho_eV": {
+        "electronic_energy": -12021.701146342099,
+        "free_energy": -12020.952147172799,
+        "total_enthalpy": 1.8571187496474502,
+        "total_entropy": 0.0037018335980983676
+      }
+    },
+    "xyz": [
+      [
+        -2.4572792261,
+        2.5378469943,
+        -0.4381768154
+      ],
+      [
+        -1.9763625614,
+        1.4879130322,
+        -0.0105405273
+      ],
+      [
+        -2.4360187419,
+        0.5822587281,
+        0.6919903929
+      ],
+      [
+        -0.5860586908,
+        1.333897885,
+        -0.4277890778
+      ],
+      [
+        0.0333924521,
+        0.1593252694,
+        -0.1235093312
+      ],
+      [
+        1.5002282289,
+        0.3241238307,
+        -0.0992590737
+      ],
+      [
+        -0.2724215772,
+        -0.7993406108,
+        -1.1694379708
+      ],
+      [
+        -0.3775853597,
+        -0.3044854769,
+        0.7739739278
+      ],
+      [
+        1.9592514722,
+        1.1598951611,
+        -0.6138991964
+      ],
+      [
+        2.1166710039,
+        -0.4512808131,
+        0.3393986721
+      ]
+    ]
+  }
+]

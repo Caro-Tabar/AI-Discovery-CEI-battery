@@ -1,0 +1,8 @@
+benchmark_name,pubchem_cid,preferred_name,candidate_family,canonical_smiles,standardized_inchikey,registry_role,source_name,source_url
+Ethylene sulfate,14075,Ethylene sulfate,sulfate_or_sultone,O=S1(=O)OCCO1,ZPFAVCIQZKRBGF-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/14075
+Sulfolane,31347,Sulfolane,sulfone_or_sulfoxide,O=S1(=O)CCCC1,HXJUTPCZVOIRIF-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/31347
+Ethylene sulfite,77342,Ethylene sulfite,sulfite,O=S1OCCO1,WDXYVJKNSMILOQ-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/77342
+"1,3-Propane sultone",14264,"1,3-Propane sultone",sulfate_or_sultone,O=S1(=O)CCCO1,FSSPGSAQUIYDCN-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/14264
+Trimethylene sulfite,77839,Trimethylene sulfite,sulfite,O=S1OCCCO1,LOURZMYQPMDBSR-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/77839
+Dimethyl sulfite,69223,Dimethyl sulfite,sulfite,COS(=O)OC,BDUPRNVPXOHWIL-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/69223
+Diethyl sulfite,12197,Diethyl sulfite,sulfite,CCOS(=O)OCC,NVJBFARDFTXOTO-UHFFFAOYSA-N,both,PubChem,https://pubchem.ncbi.nlm.nih.gov/compound/12197

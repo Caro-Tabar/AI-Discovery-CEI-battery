@@ -1,0 +1,41 @@
+{
+  "candidate_pool_count": 60,
+  "element_presence_fraction": {
+    "candidate_pool": {
+      "C": 1.0,
+      "H": 1.0,
+      "N": 0.23333333333333334,
+      "O": 0.8166666666666667,
+      "S": 1.0
+    },
+    "libe_benchmark": {
+      "C": 1.0,
+      "H": 0.9849624060150376,
+      "N": 0.0,
+      "O": 1.0,
+      "S": 0.0
+    }
+  },
+  "interpretation": "The retrospective LIBE benchmark is chemically out-of-domain relative to the sulfur-additive prospective pool. This benchmark therefore tests active-learning mechanics and uncertainty behavior; it is not treated as a directly representative training distribution for prospective candidates.",
+  "libe_benchmark_count": 133,
+  "limitation": "Only descriptors shared before Phase 7 are compared here. RDKit/xTB feature-space domain shift will become measurable after prospective features are generated.",
+  "molecular_weight_g_mol": {
+    "candidate_pool": {
+      "max": 217.29,
+      "mean": 137.19815,
+      "median": 133.6985,
+      "min": 76.164
+    },
+    "libe_benchmark": {
+      "max": 178.14000000000001,
+      "mean": 97.9335939849624,
+      "median": 86.09,
+      "min": 70.047
+    }
+  },
+  "shared_numeric_descriptor": "molecular_weight_g_mol",
+  "sulfur_domain_shift": {
+    "candidate_fraction": 1.0,
+    "libe_fraction": 0.0
+  }
+}

@@ -7,6 +7,7 @@ dependencies:
   - python=3.11
   - pip
   - "setuptools>=77"
+  - "pydantic>=2,<3"
   - ruff
   - "pytest>=9"
   - pytest-cov

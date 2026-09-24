@@ -10,7 +10,7 @@ authors = [
     { name = "Caro Tabar", email = "Caro.m.tabar@gmail.com" },
 ]
 requires-python = ">=3.11"
-dependencies = ["networkx==3.6.1",]
+dependencies = ["networkx==3.6.1", "pydantic>=2,<3",]
 
 [project.urls]
 Repository = "https://github.com/Caro-Tabar/AI-Discovery-CEI-battery"

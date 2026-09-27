@@ -1,0 +1,5 @@
+candidate_id,preferred_name,candidate_family,descriptor,value,q1,q3,lower_fence,upper_fence
+CEI-0052,N-(Aminocarbonyl)-L-cysteine,mixed_s_o_n,rdkit_tpsa_a2,92.42,31.37,52.60000000000001,-0.4750000000000121,84.44500000000002
+CEI-0057,Glycyl-L-methionine,mixed_s_o_n,rdkit_tpsa_a2,92.42,31.37,52.60000000000001,-0.4750000000000121,84.44500000000002
+CEI-0037,Diphenyl sulfide,thioether_or_disulfide,xtb_li_delta_energy_ev,-1.605145010731167,-3.6268416347634123,-2.8265079672357034,-4.827342136054975,-1.6260074659441401
+CEI-0040,Dimethyl disulfide,thioether_or_disulfide,xtb_li_delta_energy_ev,-1.4272500915607667,-3.6268416347634123,-2.8265079672357034,-4.827342136054975,-1.6260074659441401

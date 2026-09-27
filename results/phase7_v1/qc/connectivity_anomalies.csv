@@ -1,0 +1,2 @@
+candidate_id,site_rank,donor_atom_index,donor_element,starting_distance_angstrom,status,failure_stage,message,work_directory,complex_energy_hartree,connectivity_preserved,fragmented,removed_bond_count,added_bond_count
+CEI-0053,4,12,O,2.0,success,,,/home/carotabar/projects/AI-Discovery-CEI-battery/results/xtb_li_v1/CEI-0053/site_04_O_12,-45.285337859206,False,False,0,1

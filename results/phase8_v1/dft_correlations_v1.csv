@@ -1,0 +1,5 @@
+descriptor_x,descriptor_y,pearson_r,spearman_rho
+xtb_homo_ev,vertical_ionization_energy_ev,-0.96719644137705,-0.9654818865345182
+xtb_lumo_ev,vertical_electron_affinity_ev,-0.7697784039771246,-0.7535201640464799
+xtb_homo_lumo_gap_ev,vertical_ionization_energy_ev,0.8867677315420501,0.868215994531784
+xtb_li_delta_energy_ev,vertical_electron_affinity_ev,0.12472742036278851,-0.003827751196172249

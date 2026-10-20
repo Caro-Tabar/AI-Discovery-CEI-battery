@@ -1,0 +1,26 @@
+version: 1
+phase: 8
+
+policy: exclude_entire_candidate_from_phase8_dft_feature_table
+keep_in_frozen_prospective_pool: true
+
+reason:
+  category: incomplete_dft_screening
+  description: >
+    Candidate has at least one required charged-state screening DFT
+    calculation that did not converge within the allocated computational
+    budget. Existing calculations are retained as provenance and are not
+    used to construct complete DFT redox feature vectors.
+
+candidates:
+  CEI-0021:
+    unconverged_state: reduced
+
+  CEI-0051:
+    unconverged_state: reduced
+
+  CEI-0059:
+    unconverged_state: oxidized
+
+  CEI-0060:
+    unconverged_state: oxidized

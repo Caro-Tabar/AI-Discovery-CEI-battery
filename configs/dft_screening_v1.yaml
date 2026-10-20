@@ -1,0 +1,43 @@
+version: 1
+stage: screening
+
+engine:
+  name: pyscf
+
+electronic_structure:
+  theory: dft
+  functional: wb97x-v
+  basis: def2-svpd
+  density_fitting: true
+
+solvent:
+  model: IEF-PCM
+  dielectric_constant: 20.0
+  environment_label: generic_electrolyte_like
+
+states:
+  neutral:
+    charge: 0
+    spin: 0
+    expected_reference: RKS
+
+  oxidized:
+    electron_change: -1
+    charge_relative_to_neutral: 1
+    expected_spin: 1
+    expected_reference: UKS
+
+  reduced:
+    electron_change: 1
+    charge_relative_to_neutral: -1
+    expected_spin: 1
+    expected_reference: UKS
+
+validation:
+  validate_electron_count: true
+  validate_charge_spin_consistency: true
+  require_scf_convergence: true
+  retain_failed_calculations: true
+
+provenance:
+  geometry_source: phase7_frozen_neutral_xyz

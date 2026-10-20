@@ -20,6 +20,8 @@ dependencies:
   - types-networkx=3.6.1.20260624
   - rdkit=2026.03.6
   - xtb=6.7.1
+  - pyscf=2.14.0
+  - geometric=1.1.1
   - pyyaml=6.0.*
   - pandas-stubs=2.3.3.260113
   - types-pyyaml=6.0.12.20260724

@@ -1,0 +1,66 @@
+
+{
+  "version": 1,
+  "phase": 8,
+  "dataset": "phase8_features_v1",
+  "description": "Phase 7 molecular descriptors merged with screening-level vertical DFT redox descriptors.",
+  "candidate_counts": {
+    "frozen_prospective_pool": 60,
+    "dft_complete": 56,
+    "dft_excluded": 4
+  },
+  "dft_exclusions": {
+    "CEI-0021": "reduced state SCF unconverged",
+    "CEI-0051": "reduced state SCF unconverged",
+    "CEI-0059": "oxidized state SCF unconverged",
+    "CEI-0060": "oxidized state SCF unconverged"
+  },
+  "geometry": {
+    "source": "Phase 7 neutral GFN2-xTB optimized rank-1 geometry",
+    "same_geometry_used_for_all_charge_states": true,
+    "interpretation": "vertical electronic energy differences"
+  },
+  "screening_dft": {
+    "engine": "PySCF",
+    "functional": "wb97x-v",
+    "basis": "def2-svpd",
+    "density_fitting": true,
+    "solvent_model": "IEF-PCM",
+    "dielectric_constant": 20.0,
+    "grid_level": 3
+  },
+  "electronic_states": {
+    "neutral": {
+      "charge": 0,
+      "spin": 0,
+      "reference": "RKS"
+    },
+    "oxidized": {
+      "charge": 1,
+      "spin": 1,
+      "reference": "UKS"
+    },
+    "reduced": {
+      "charge": -1,
+      "spin": 1,
+      "reference": "UKS"
+    }
+  },
+  "primary_dft_features": {
+    "vertical_ionization_energy_ev": "E(cation) - E(neutral)",
+    "vertical_electron_affinity_ev": "E(neutral) - E(anion)"
+  },
+  "manual_review": {
+    "CEI-0054": {
+      "retained": true,
+      "reason": "Elevated oxidized-state spin contamination review flag and electron-affinity IQR flag."
+    }
+  },
+  "limitations": [
+    "DFT descriptors are electronic energy differences, not Gibbs free energies.",
+    "DFT descriptors are not directly electrode-referenced redox potentials.",
+    "IEF-PCM represents bulk dielectric polarization but not explicit electrolyte coordination.",
+    "Absolute DFT total energies are not used to rank molecules with different molecular formulas.",
+    "Four candidates with incomplete charged-state SCF convergence are retained in the original prospective pool but excluded from the DFT-complete feature dataset."
+  ]
+}

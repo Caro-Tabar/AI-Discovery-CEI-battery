@@ -1,0 +1,29 @@
+version: 1
+stage: finalist
+
+status: method_not_yet_selected
+
+scientific_scope:
+  purpose: higher_fidelity_followup_for_selected_finalists
+  separate_from_screening_method: true
+
+method:
+  functional: null
+  basis: null
+  density_fitting: null
+
+solvent:
+  model: null
+  dielectric_constant: null
+
+thermochemistry:
+  geometry_optimization: null
+  frequency_analysis: null
+  zero_point_energy: null
+  thermal_corrections: null
+  free_energy: null
+
+notes:
+  - Finalist-level assumptions must be selected and justified separately.
+  - Do not inherit screening-level assumptions automatically.
+  - Do not interpret null values as disabled features.

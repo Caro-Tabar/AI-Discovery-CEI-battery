@@ -1,0 +1,50 @@
+version: 1
+phase: 8
+
+primary_dft_features:
+  - vertical_ionization_energy_ev
+  - vertical_electron_affinity_ev
+
+interpretation:
+  vertical_ionization_energy_ev:
+    meaning: vertical electronic ionization energy
+    convention: E(cation) - E(neutral)
+    lower_value: easier_one_electron_oxidation
+
+  vertical_electron_affinity_ev:
+    meaning: vertical electronic electron affinity
+    convention: E(neutral) - E(anion)
+    higher_value: more_favorable_electron_attachment
+
+qc_only:
+  - oxidized_s2
+  - reduced_s2
+  - oxidized_s2_deviation
+  - reduced_s2_deviation
+  - spin_review_flag
+  - ionization_iqr_flag
+  - electron_affinity_iqr_flag
+  - manual_review_flag
+
+provenance_only:
+  - energy_neutral_eh
+  - energy_oxidized_eh
+  - energy_reduced_eh
+  - runtime_neutral_s
+  - runtime_oxidized_s
+  - runtime_reduced_s
+  - xyz_sha256
+  - functional
+  - basis
+  - pcm_model
+  - dielectric
+  - grid_level
+
+exclude_from_model_features:
+  - vertical_electron_attachment_delta_e_ev
+
+notes:
+  - Absolute electronic energies must not be compared across different molecular formulas as ranking features.
+  - The electron-attachment delta-E column is exactly the negative of vertical electron affinity and is therefore redundant.
+  - Spin and statistical review flags are retained for QC, not used as molecular predictors.
+  - These DFT quantities are vertical electronic-energy descriptors, not experimental redox potentials or Gibbs free energies.

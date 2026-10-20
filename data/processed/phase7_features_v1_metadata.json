@@ -1,0 +1,39 @@
+{
+  "candidate_count": 60,
+  "feature_version": "phase7_features_v1",
+  "geometry_record_count": 120,
+  "input_sha256": {
+    "candidates_v1.parquet": "e0449d24e8e15943a609669a81f844542d868d111a7fdc9d347ae9b02d3df256",
+    "li_association.parquet": "0afcef66d42ae5b3753656ebe50bf22eccb1782cca35f61656b272499b9d7ef0",
+    "li_site_attempts.parquet": "ca1bb2fdd609ee7e47098951e63966e6310e93db80d8c1da8d9b6799e5990fb1",
+    "xtb_attempts.parquet": "273eaa6f9fcee5a0310038884afd5c6051533cba96cde72b7072c18ec140a435",
+    "xtb_descriptors.parquet": "511c2b2f13f6ce12e5a49a2c3607cb68946a37ebc9ff10c1eb70cf92420cf354"
+  },
+  "li_reference_energy_hartree": 0.1659637,
+  "schema_version": "1.0",
+  "scientific_cautions": [
+    "Neutral xTB total energies are composition-dependent and must not be ranked directly across different molecular formulas.",
+    "Li association values are gas-phase GFN2-xTB electronic-energy proxies, not binding free energies.",
+    "RDKit descriptors are 2D/topological or fragment-derived descriptors and do not replace electronic-structure calculations."
+  ],
+  "software": {
+    "pandas": "2.3.3",
+    "python": "3.11.16",
+    "rdkit": "2026.03.6",
+    "xtb": "6.7.1"
+  },
+  "units": {
+    "li_association": {
+      "ev": "eV",
+      "hartree": "Hartree",
+      "kcal_mol": "kcal/mol"
+    },
+    "molecular_weight": "g/mol",
+    "tpsa": "angstrom^2",
+    "xtb_dipole": "Debye",
+    "xtb_gap": "eV",
+    "xtb_orbital_energy": "eV",
+    "xtb_polarizability": "atomic_units",
+    "xtb_total_energy": "Hartree"
+  }
+}

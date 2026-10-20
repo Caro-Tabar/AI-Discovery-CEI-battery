@@ -1,0 +1,49 @@
+{
+  "candidate_count": 60,
+  "connectivity_anomaly_count": 1,
+  "descriptor_ranges": {
+    "rdkit_rotatable_bond_count": {
+      "maximum": 8.0,
+      "mean": 2.2,
+      "minimum": 0.0
+    },
+    "rdkit_tpsa_a2": {
+      "maximum": 92.42,
+      "mean": 37.15466666666667,
+      "minimum": 0.0
+    },
+    "xtb_dipole_debye": {
+      "maximum": 7.353,
+      "mean": 3.811166666666666,
+      "minimum": 1.151
+    },
+    "xtb_homo_ev": {
+      "maximum": -9.4155,
+      "mean": -10.900371666666668,
+      "minimum": -12.6035
+    },
+    "xtb_homo_lumo_gap_ev": {
+      "maximum": 8.538226543751,
+      "mean": 5.53307853088155,
+      "minimum": 2.283055459962
+    },
+    "xtb_li_delta_energy_ev": {
+      "maximum": -1.4272500915607667,
+      "mean": -3.1033301339528068,
+      "minimum": -4.069409058082546
+    },
+    "xtb_lumo_ev": {
+      "maximum": -3.4838,
+      "mean": -5.367298333333333,
+      "minimum": -7.5133
+    },
+    "xtb_polarizability_au": {
+      "maximum": 150.097058,
+      "mean": 89.98359639999998,
+      "minimum": 53.024227
+    }
+  },
+  "iqr_outlier_flag_count": 4,
+  "missing_value_count": 0,
+  "unique_candidate_count": 60
+}

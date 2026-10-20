@@ -1,0 +1,36 @@
+schema_version: "1.0"
+
+method:
+  name: GFN2-xTB
+  gfn_level: 2
+
+solvation:
+  model: none
+  solvent: null
+
+optimization:
+  level: tight
+  max_cycles: 500
+
+parallel:
+  omp_num_threads: 4
+  mkl_num_threads: 4
+  omp_max_active_levels: 1
+
+retry:
+  max_attempts: 2
+  first_conformer_rank: 1
+  retry_conformer_rank: 2
+  change_method_on_retry: false
+  change_solvation_on_retry: false
+
+execution:
+  timeout_seconds: 1800
+
+li_association:
+  charge: 1
+  uhf: 0
+  oxygen_distance_angstrom: 2.0
+  nitrogen_distance_angstrom: 2.1
+  sulfur_distance_angstrom: 2.3
+  sulfur_max_total_valence: 2

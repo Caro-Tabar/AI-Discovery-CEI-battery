@@ -1,0 +1,23 @@
+schema_version: "1.0"
+
+embedding:
+  method: ETKDGv3
+  random_seed: 20260925
+  num_conformers: 50
+  prune_rms_threshold_angstrom: 0.5
+  num_threads: 1
+  enforce_chirality: true
+  use_small_ring_torsions: true
+  use_macrocycle_torsions: true
+  use_macrocycle_14config: true
+  only_heavy_atoms_for_pruning: true
+
+prescreen:
+  primary_force_field: MMFF94s
+  fallback_force_field: UFF
+  fallback_if_mmff_unavailable: true
+  max_iterations: 500
+
+selection:
+  max_selected_conformers: 3
+  min_heavy_atom_rmsd_angstrom: 0.5

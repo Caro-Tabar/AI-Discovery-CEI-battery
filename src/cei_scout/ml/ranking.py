@@ -166,9 +166,8 @@ def build_ranking(
 
     for cid in sorted(prospective):
         original = prospective[cid]
-        row = dft.get(cid)
-        completed = row is not None
-
+        completed = cid in dft
+        row = dft.get(cid, {})
         # All molecular identities and available Phase 7 values survive.
         record = {
             "candidate_id": cid,

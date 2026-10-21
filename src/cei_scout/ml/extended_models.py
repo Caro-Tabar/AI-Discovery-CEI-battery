@@ -179,9 +179,8 @@ def evaluate_models(
                         else ""
                     )
 
-                    fold_coverage = ""
-                    fold_std = ""
-
+                    fold_coverage: float | str = ""
+                    fold_std: float | str = ""
                     if uncertainty is not None:
                         in_interval = np.abs(truth - estimate) <= 1.96 * uncertainty
                         covered.extend(int(v) for v in in_interval)
@@ -210,10 +209,10 @@ def evaluate_models(
                         zip(test, truth, estimate, strict=True)
                     ):
                         error = float(estimate_value - actual)
-                        sigma = (
+                        sigma_value: float | None = (
                             float(uncertainty[offset])
                             if uncertainty is not None
-                            else ""
+                            else None
                         )
 
                         predictions.append(
@@ -230,10 +229,12 @@ def evaluate_models(
                                 "predicted_value_ev": float(estimate_value),
                                 "signed_error_ev": error,
                                 "absolute_error_ev": abs(error),
-                                "predictive_std_ev": sigma,
+                                "predictive_std_ev": (
+                                    sigma_value if sigma_value is not None else ""
+                                ),
                                 "within_gp_95pct_interval": (
-                                    int(abs(error) <= 1.96 * sigma)
-                                    if uncertainty is not None
+                                    int(abs(error) <= 1.96 * sigma_value)
+                                    if sigma_value is not None
                                     else ""
                                 ),
                             }

@@ -111,8 +111,8 @@ def analyze(
     ea_std = defaultdict(list)
 
     for repeat in range(1, repeats + 1):
-        ie = {}
-        ea = {}
+        ie: dict[str, float] = {}
+        ea: dict[str, float] = {}
 
         for row in gp_rows:
             if row["validation"] != "primary":
@@ -146,7 +146,7 @@ def analyze(
 
     for row in ranking:
         cid = row["candidate_id"]
-        record = {
+        record: dict[str, str | int | float] = {
             "candidate_id": cid,
             "preferred_name": row["preferred_name"],
             "candidate_family": row["candidate_family"],

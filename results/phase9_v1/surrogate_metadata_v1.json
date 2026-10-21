@@ -1,0 +1,67 @@
+{
+  "extra_trees_tuned": false,
+  "features": [
+    "xtb_homo_ev",
+    "xtb_lumo_ev",
+    "xtb_dipole_debye",
+    "xtb_li_delta_energy_ev",
+    "rdkit_tpsa_a2",
+    "rdkit_fraction_csp3",
+    "rdkit_ring_count",
+    "rdkit_o_count"
+  ],
+  "input_sha256": {
+    "configuration": "2556ec52b7520790eab625a2e895c792916a81555cd39ee7c08a752ee6ae4a70",
+    "labeled": "ef2517ea38888d916eb69de3611cb7f47acb1c95246da518e47b80bfc3d4d851",
+    "prospective": "9a1ed7f2f050156c2cec7a021b3dba014fe84646922f1e68937dc92bf17714e8"
+  },
+  "model_settings": {
+    "extra_trees": {
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 300
+    },
+    "ridge": {
+      "alpha_grid": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ]
+    }
+  },
+  "numpy_version": "2.4.6",
+  "output_version": 1,
+  "phase": 9,
+  "prediction_policy": "outer_fold_held_out_only",
+  "python_version": "3.11.16",
+  "ridge_selection_metric": "inner_cv_mae_ev",
+  "scientific_scope": "Vertical DFT electronic-energy descriptors; not experimental electrochemical potentials.",
+  "scikit_learn_version": "1.9.1",
+  "targets": {
+    "electron_affinity": "vertical_electron_affinity_ev",
+    "ionization_energy": "vertical_ionization_energy_ev"
+  },
+  "validation": {
+    "family_stress_test": {
+      "group_column": "candidate_family",
+      "method": "leave_one_group_out"
+    },
+    "inner_model_selection": {
+      "method": "kfold",
+      "n_splits": 4,
+      "shuffle": true
+    },
+    "metrics": [
+      "mae_ev",
+      "rmse_ev"
+    ],
+    "primary": {
+      "method": "repeated_kfold",
+      "n_repeats": 5,
+      "n_splits": 5
+    },
+    "random_seed": 1729
+  }
+}

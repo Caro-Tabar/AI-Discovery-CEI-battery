@@ -1,0 +1,33 @@
+{
+  "experiment": {
+    "acquisition": "normalized_joint_gpr_std",
+    "acquisition_batch_size": 2,
+    "acquisition_rounds": 10,
+    "additional_dft": false,
+    "initial_labeled_size": 12,
+    "oracle": "existing_dft_labels_only",
+    "seeds": [
+      1729,
+      1730,
+      1731,
+      1732,
+      1733
+    ],
+    "strategies": [
+      "uncertainty",
+      "random"
+    ],
+    "test_size": 12
+  },
+  "input_sha256": {
+    "active_learning_config": "ef3526a6c5f2a621aa2a5b6e243f112a3cdf76da5349d1fce76be7d8a139867e",
+    "base_ml_config": "2556ec52b7520790eab625a2e895c792916a81555cd39ee7c08a752ee6ae4a70",
+    "extended_ml_config": "507c9509e1039da553c2920d903144dd884b96ddb5c9823ddf90870e12d6368f",
+    "labeled": "ef2517ea38888d916eb69de3611cb7f47acb1c95246da518e47b80bfc3d4d851",
+    "prospective": "9a1ed7f2f050156c2cec7a021b3dba014fe84646922f1e68937dc92bf17714e8"
+  },
+  "interpretation": "Retrospective active-learning simulation using existing DFT labels. Test labels are evaluation-only. Pool labels are revealed only following selection. Comparisons are paired within seeds; repeated test sets are not fully independent. Predictive uncertainties are uncalibrated.",
+  "phase": 9,
+  "scikit_learn_version": "1.9.1",
+  "version": 1
+}

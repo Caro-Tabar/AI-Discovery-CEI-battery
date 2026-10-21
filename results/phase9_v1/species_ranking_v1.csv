@@ -1,0 +1,61 @@
+candidate_id,preferred_name,canonical_smiles,molecular_formula,candidate_family,dft_status,unconverged_state,vertical_ionization_energy_ev,vertical_electron_affinity_ev,oxidation_propensity_rank,electron_attachment_rank,oxidation_resistance_rank,dual_redox_rank_sum,dual_redox_priority_rank,xtb_li_delta_energy_ev,manual_review_flag,spin_review_flag,electron_affinity_iqr_flag,qc_li_connectivity_change_count,qc_li_fragmentation_count
+CEI-0001,Dimethyl sulfite,COS(=O)OC,C2H6O3S,sulfite,complete,,8.479031932984329,0.0816322652780815,41,30,16,71,38,-3.4881474354082007,False,False,False,0,0
+CEI-0002,Dibutyl sulfite,CCCCOS(=O)OCCCC,C8H18O3S,sulfite,complete,,8.170319610174618,0.0230675472264943,29,32,28,61,34,-3.878622288996248,False,False,False,0,0
+CEI-0003,Ethyl methyl sulfite,CCOS(=O)OC,C3H8O3S,sulfite,complete,,8.364426282345871,0.2784799915026483,39,23,18,62,35,-3.6261023606926956,False,False,False,0,0
+CEI-0004,Diisopropyl sulfite,CC(C)OS(=O)OC(C)C,C6H14O3S,sulfite,complete,,8.134143064645313,0.2501461554206615,28,25,29,53,27,-3.9128705170311617,False,False,False,0,0
+CEI-0005,Trimethylene sulfite,O=S1OCCCO1,C3H6O3S,sulfite,complete,,8.50695844226966,0.5312341020937102,42,16,15,58,32,-3.159300968438321,False,False,False,0,0
+CEI-0006,Dipropyl sulfite,CCCOS(=O)OCCC,C6H14O3S,sulfite,complete,,8.194369142156642,0.2862909285805465,30,21,27,51,25,-3.885007873820876,False,False,False,0,0
+CEI-0007,Diethyl sulfite,CCOS(=O)OCC,C4H10O3S,sulfite,complete,,8.226893411885662,0.2922872992824729,32,20,25,52,26,-3.7799623455646874,False,False,False,0,0
+CEI-0008,"4,5-Dimethyl ethylene sulfite",CC1OS(=O)OC1C,C4H8O3S,sulfite,complete,,8.294629656185847,0.8251595717830092,35,9,22,44,18,-3.629059456975562,False,False,False,0,0
+CEI-0009,"1,2-Propylene sulfite",CC1COS(=O)O1,C3H6O3S,sulfite,complete,,8.360258402869437,0.8839671996211194,38,7,19,45,21,-3.500962976950633,False,False,False,0,0
+CEI-0010,Ethylene sulfite,O=S1OCCO1,C2H4O3S,sulfite,complete,,8.314362094453221,0.876097958706451,36,8,21,44,19,-3.3365953040415457,False,False,False,0,0
+CEI-0011,Diethyl sulfate,CCOS(=O)(=O)OCC,C4H10O4S,sulfate_or_sultone,complete,,9.474802537367204,-0.2233267295438347,55,47,2,102,55,-3.6311535273541575,False,False,False,0,0
+CEI-0012,"1,3-Propane sultone",O=S1(=O)CCCO1,C3H6O3S,sulfate_or_sultone,complete,,9.006370021090241,-0.0853491529185529,49,39,8,88,49,-3.404921552155712,False,False,False,0,0
+CEI-0013,Diisopropyl sulfate,CC(C)OS(=O)(=O)OC(C)C,C6H14O4S,sulfate_or_sultone,complete,,9.099071744709,-0.3477722221593152,51,55,6,106,56,-3.6905036493664367,False,False,False,0,0
+CEI-0014,Ethyl methyl sulfate,CCOS(=O)(=O)OC,C3H8O4S,sulfate_or_sultone,complete,,9.162392424402665,-0.1432354293040459,52,41,5,93,53,-3.548590867272938,False,False,False,0,0
+CEI-0015,"1,3-Propene sultone",O=S1(=O)C=CCO1,C3H4O3S,sulfate_or_sultone,complete,,8.507329529847864,1.0409943358114446,43,6,14,49,24,-3.4288447615633704,False,False,False,0,0
+CEI-0016,"1,4-Butane sultone",O=S1(=O)CCCCO1,C4H8O3S,sulfate_or_sultone,complete,,8.881542175557568,-0.1446290526675867,47,42,10,89,51,-3.4486875546226585,False,False,False,0,0
+CEI-0017,Propylene sulfate,CC1COS(=O)(=O)O1,C3H6O4S,sulfate_or_sultone,complete,,9.094128063172636,0.1026076185321415,50,29,7,79,42,-3.3223585348979854,False,False,False,0,0
+CEI-0018,Trimethylene sulfate,O=S1(=O)OCCCO1,C3H6O4S,sulfate_or_sultone,complete,,9.17475995341968,-0.0133947142806718,53,35,4,88,50,-3.308866371351886,False,False,False,0,0
+CEI-0019,Dimethyl sulfate,COS(=O)(=O)OC,C2H6O4S,sulfate_or_sultone,complete,,9.554561239514737,-0.0826181416321068,56,38,1,94,54,-3.3649281306450707,False,False,False,0,0
+CEI-0020,Ethylene sulfate,O=S1(=O)OCCO1,C2H4O4S,sulfate_or_sultone,complete,,9.203005980518862,0.1289371740203292,54,28,3,82,43,-3.2788535137071175,False,False,False,0,0
+CEI-0021,Dibutyl sulfone,CCCCS(=O)(=O)CCCC,C8H18O2S,sulfone_or_sulfoxide,incomplete,reduced,,,,,,,,-3.6965078869668786,,,,0,0
+CEI-0022,Diethyl sulfoxide,CC[S+]([O-])CC,C4H10OS,sulfone_or_sulfoxide,complete,,6.683549943699013,-0.3462826019112171,14,54,43,68,37,-3.278362659592481,False,False,False,0,0
+CEI-0023,3-Methylsulfolane,CC1CCS(=O)(=O)C1,C5H10O2S,sulfone_or_sulfoxide,complete,,8.221786923248715,-0.1892172554023774,31,44,26,75,39,-3.4462852412526126,False,False,False,0,0
+CEI-0024,Dimethyl sulfone,CS(C)(=O)=O,C2H6O2S,sulfone_or_sulfoxide,complete,,8.564987493184033,-0.2060091569824742,45,45,12,90,52,-3.355127921833643,False,False,False,0,0
+CEI-0025,Sulfolane,O=S1(=O)CCCC1,C4H8O2S,sulfone_or_sulfoxide,complete,,8.227141287573872,-0.1885502560959041,33,43,24,76,40,-3.4090407834513137,False,False,False,0,0
+CEI-0026,Dimethyl sulfoxide,C[S+](C)[O-],C2H6OS,sulfone_or_sulfoxide,complete,,6.783616614121051,-0.0315275082489215,18,36,39,54,28,-3.1808026972382017,False,False,False,0,0
+CEI-0027,Tetramethylene sulfoxide,[O-][S+]1CCCC1,C4H8OS,sulfone_or_sulfoxide,complete,,6.616116492076337,-0.0029290913361673,13,34,44,47,22,-3.2334140928922213,False,False,False,0,0
+CEI-0028,Dipropyl sulfone,CCCS(=O)(=O)CCC,C6H14O2S,sulfone_or_sulfoxide,complete,,8.283786078328731,-0.3289848251608784,34,52,23,86,45,-3.5911854654131856,False,False,False,0,0
+CEI-0029,Diethyl sulfone,CCS(=O)(=O)CC,C4H10O2S,sulfone_or_sulfoxide,complete,,8.326470193422567,-0.2914162427251764,37,49,20,86,46,-3.5256364605503205,False,False,False,0,0
+CEI-0030,Ethyl methyl sulfoxide,CC[S+](C)[O-],C3H8OS,sulfone_or_sulfoxide,complete,,6.730372196566739,-0.321972592012939,15,51,42,66,36,-3.232414740092634,False,False,False,0,0
+CEI-0031,Ethyl methyl sulfone,CCS(C)(=O)=O,C3H8O2S,sulfone_or_sulfoxide,complete,,8.446267225267286,-0.2128238698478788,40,46,17,86,47,-3.44000552091126,False,False,False,0,0
+CEI-0032,Dipropyl disulfide,CCCSSCCC,C6H14S2,thioether_or_disulfide,complete,,6.766070821497086,0.5876594455314339,17,13,40,30,10,-1.739380836208911,False,False,False,0,0
+CEI-0033,Diethyl disulfide,CCSSCC,C4H10S2,thioether_or_disulfide,complete,,6.80523155354186,0.5865199804241344,19,14,38,33,13,-1.6925429058445336,False,False,False,0,0
+CEI-0034,Dibutyl disulfide,CCCCSSCCCC,C8H18S2,thioether_or_disulfide,complete,,6.734286758760215,0.572880723966373,16,15,41,31,11,-1.8058611644263194,False,False,False,0,0
+CEI-0035,Thioanisole,CSc1ccccc1,C7H8S,thioether_or_disulfide,complete,,6.064962134444461,0.6327371671750844,2,12,55,14,3,-1.635646947246752,False,False,False,0,0
+CEI-0036,Diethyl sulfide,CCSCC,C4H10S,thioether_or_disulfide,complete,,6.27987869723081,-0.3307164896530318,5,53,52,58,30,-1.8586111290305904,False,False,False,0,0
+CEI-0037,Diphenyl sulfide,c1ccc(Sc2ccccc2)cc1,C12H10S,thioether_or_disulfide,complete,,6.140686142442278,0.7393859105299422,3,10,54,13,2,-1.605145010731167,False,False,False,0,0
+CEI-0038,Allyl methyl sulfide,C=CCSC,C4H8S,thioether_or_disulfide,complete,,6.393078127279997,0.2656744690503897,11,24,46,35,15,-1.7424240387328394,False,False,False,0,0
+CEI-0039,Diallyl sulfide,C=CCSCC=C,C6H10S,thioether_or_disulfide,complete,,6.446942455112525,0.0355210554748557,12,31,45,43,16,-2.1098487338731453,False,False,False,0,0
+CEI-0040,Dimethyl disulfide,CSSC,C2H6S2,thioether_or_disulfide,complete,,6.891258703548638,0.6502691223987459,20,11,37,31,12,-1.4272500915607667,False,False,False,0,0
+CEI-0041,Ethyl methyl sulfide,CCSC,C3H8S,thioether_or_disulfide,complete,,6.297906215045391,-0.3075148683400595,6,50,51,56,29,-1.6287840655099737,False,False,False,0,0
+CEI-0042,Diisopropyl sulfide,CC(C)SC(C)C,C6H14S,thioether_or_disulfide,complete,,6.237733255225064,-0.3519801856932875,4,56,53,60,33,-1.8590934372732044,False,False,False,0,0
+CEI-0043,Propyl methanesulfonate,CCCOS(C)(=O)=O,C4H10O3S,sulfonate_or_sulfonamide,complete,,8.863681986318976,-0.0421803703057195,46,37,11,83,44,-3.4616561678591755,False,False,False,0,0
+CEI-0044,N-Methyl-p-toluenesulfonamide,CNS(=O)(=O)c1ccc(C)cc1,C8H11NO2S,sulfonate_or_sulfonamide,complete,,7.350090231381,1.1690705975106517,23,4,34,27,6,-3.7083895210256816,False,False,False,0,0
+CEI-0045,Methanesulfonamide,CS(N)(=O)=O,CH5NO2S,sulfonate_or_sulfonamide,complete,,8.527274030728242,-0.0029286021458334,44,33,13,77,41,-3.306043994125248,False,False,False,0,0
+CEI-0046,3-(Methylsulfanyl)propyl methanesulfonate,CSCCCOS(C)(=O)=O,C5H12O3S2,sulfonate_or_sulfonamide,complete,,6.392516375638447,-0.2687576359542985,10,48,47,58,31,-4.069409058082546,False,False,False,0,0
+CEI-0047,Benzenesulfonamide,NS(=O)(=O)c1ccccc1,C6H7NO2S,sulfonate_or_sulfonamide,complete,,7.680029752299812,1.2903896933563128,26,2,31,28,8,-3.6021119623178293,False,False,False,0,0
+CEI-0048,p-Toluenesulfonamide,Cc1ccc(S(N)(=O)=O)cc1,C7H9NO2S,sulfonate_or_sulfonamide,complete,,7.328586918165168,1.159803185634879,22,5,35,27,5,-3.6941548579889703,False,False,False,0,0
+CEI-0049,Methyl methanesulfonate,COS(C)(=O)=O,C2H6O3S,sulfonate_or_sulfonamide,complete,,8.923553192965345,-0.1279573760242614,48,40,9,88,48,-3.3322025540955513,False,False,False,0,0
+CEI-0050,N-Ethyl-p-toluenesulfonamide,CCNS(=O)(=O)c1ccc(C)cc1,C9H13NO2S,sulfonate_or_sulfonamide,complete,,7.3900208736116255,1.230860028795688,24,3,33,27,7,-3.7200631868678444,False,False,False,0,0
+CEI-0051,Ethyl methanesulfonate,CCOS(C)(=O)=O,C3H8O3S,sulfonate_or_sulfonamide,incomplete,reduced,,,,,,,,-3.434658640550887,,,,0,0
+CEI-0052,N-(Aminocarbonyl)-L-cysteine,NC(=O)NC(CS)C(=O)O,C4H8N2O3S,mixed_s_o_n,complete,,7.493025074333871,0.4012883308173601,25,19,32,44,17,-3.69604762549834,False,False,False,0,0
+CEI-0053,Captopril,CC(CS)C(=O)N1CCCC1C(=O)O,C9H15NO3S,mixed_s_o_n,complete,,7.120686443150829,0.246209895500845,21,26,36,47,23,-3.7477089542412347,False,False,False,1,0
+CEI-0054,Rhodanine,Oc1csc(=S)[nH]1,C3H3NOS2,mixed_s_o_n,complete,,5.878002973134687,1.7521364512328483,1,1,56,2,1,-1.908284854936962,True,True,True,0,0
+CEI-0055,L-Methionine,CSCCC(N)C(=O)O,C5H11NO2S,mixed_s_o_n,complete,,6.321165571373048,0.1453701857403996,7,27,50,34,14,-2.858281929934069,False,False,False,0,0
+CEI-0056,L-Ethionine,CCSCCC(N)C(=O)O,C6H13NO2S,mixed_s_o_n,complete,,6.351451734563448,0.2830919648449468,8,22,49,30,9,-2.731186079140606,False,False,False,0,0
+CEI-0057,Glycyl-L-methionine,CSCCC(NC(=O)CN)C(=O)O,C7H14N2O3S,mixed_s_o_n,complete,,6.363110487139198,0.4302127464411801,9,17,48,26,4,-3.300727242892099,False,False,False,0,0
+CEI-0058,N-Acetyl-L-cysteine,CC(=O)NC(CS)C(=O)O,C5H9NO3S,mixed_s_o_n,complete,,7.695403853820616,0.4254864642248611,27,18,30,45,20,-3.679321737982187,False,False,False,0,0
+CEI-0059,Penicillamine,CC(C)(S)C(N)C(=O)O,C5H11NO2S,mixed_s_o_n,incomplete,oxidized,,,,,,,,-2.5940209271167,,,,0,0
+CEI-0060,L-Cysteine,NC(CS)C(=O)O,C3H7NO2S,mixed_s_o_n,incomplete,oxidized,,,,,,,,-2.237826921022252,,,,0,0

@@ -1,0 +1,32 @@
+{
+  "input_sha256": {
+    "dft_dataset": "ef2517ea38888d916eb69de3611cb7f47acb1c95246da518e47b80bfc3d4d851",
+    "dft_exclusions": "98d5e796f1643a8e0493d03b15dc5f4fd7fdd634d6a2618024fb76d41b4531e2",
+    "prospective_dataset": "9a1ed7f2f050156c2cec7a021b3dba014fe84646922f1e68937dc92bf17714e8",
+    "ranking_config": "f17b89cef6447458d71fbd9e6b777c2248c7b84ba69cb998e08c0a805c876567"
+  },
+  "interpretation": "Ranks describe computed vertical redox tendencies. They do not establish CEI performance or experimental electrochemical potentials. The combined rank uses equal-weight ordinal positions, not calibrated physics.",
+  "li_association_policy": "reported, not scored",
+  "phase": 9,
+  "population": {
+    "dft_complete": 56,
+    "dft_incomplete": [
+      "CEI-0021",
+      "CEI-0051",
+      "CEI-0059",
+      "CEI-0060"
+    ],
+    "prospective": 60
+  },
+  "qc_policy": "flags preserved; no automatic exclusions",
+  "scoring": {
+    "composite": "equal_ordinal_rank_sum",
+    "composite_tie_break": "oxidation_rank_then_candidate_id",
+    "electron_attachment_column": "vertical_electron_affinity_ev",
+    "electron_attachment_direction": "descending",
+    "oxidation_column": "vertical_ionization_energy_ev",
+    "oxidation_direction": "ascending",
+    "profile": "exploratory_dual_redox_propensity"
+  },
+  "version": 1
+}

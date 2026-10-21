@@ -1,0 +1,9 @@
+validation,target,model,n_folds,n_predictions,n_unique_candidates,mae_ev,rmse_ev
+primary,ionization_energy,mean,25,280,56,0.9742744117529862,1.0800035614501058
+primary,ionization_energy,linear_regression,25,280,56,0.227986310550943,0.28039565154860874
+primary,electron_affinity,mean,25,280,56,0.41213990556969876,0.5054363911361194
+primary,electron_affinity,linear_regression,25,280,56,0.2593554807227698,0.32893753911975787
+family,ionization_energy,mean,6,56,56,1.1171728707689896,1.2423918336092705
+family,ionization_energy,linear_regression,6,56,56,0.23568121092508174,0.28518136775895864
+family,electron_affinity,mean,6,56,56,0.43900290053987173,0.5314893263403504
+family,electron_affinity,linear_regression,6,56,56,0.27739055734886414,0.34633723050176063

@@ -1,0 +1,108 @@
+version: 1
+phase: 9
+
+datasets:
+  labeled: data/processed/phase8_features_v1.csv
+  prospective: data/processed/phase7_features_v1.csv
+  candidate_id_column: candidate_id
+  family_column: candidate_family
+
+population:
+  frozen_pool_size: 60
+  dft_complete_size: 56
+  dft_incomplete_ids:
+    - CEI-0021
+    - CEI-0051
+    - CEI-0059
+    - CEI-0060
+  incomplete_policy: exclude_from_supervised_training_only
+
+targets:
+  ionization_energy: vertical_ionization_energy_ev
+  electron_affinity: vertical_electron_affinity_ev
+
+features:
+  primary:
+    - xtb_homo_ev
+    - xtb_lumo_ev
+    - xtb_dipole_debye
+    - xtb_li_delta_energy_ev
+    - rdkit_tpsa_a2
+    - rdkit_fraction_csp3
+    - rdkit_ring_count
+    - rdkit_o_count
+
+  simple_baselines:
+    ionization_energy:
+      - xtb_homo_ev
+    electron_affinity:
+      - xtb_lumo_ev
+
+  selection_policy: explicit_whitelist
+  family_as_predictor: false
+
+models:
+  baselines:
+    - mean
+    - linear_regression
+
+  candidates:
+    - ridge
+    - extra_trees
+
+  ridge:
+    alpha_grid: [0.01, 0.1, 1.0, 10.0, 100.0]
+
+  extra_trees:
+    n_estimators: 300
+    min_samples_leaf: 2
+    max_features: 1.0
+
+validation:
+  random_seed: 1729
+
+  primary:
+    method: repeated_kfold
+    n_splits: 5
+    n_repeats: 5
+
+  family_stress_test:
+    method: leave_one_group_out
+    group_column: candidate_family
+
+  inner_model_selection:
+    method: kfold
+    n_splits: 4
+    shuffle: true
+
+  metrics:
+    - mae_ev
+    - rmse_ev
+
+preprocessing:
+  scaling: fit_on_training_fold_only
+  imputation: none_required
+
+qc_policy:
+  retained_dft_review_ids:
+    - CEI-0054
+
+  li_site_review_ids:
+    - CEI-0053
+
+  qc_flags_as_predictors: false
+  retain_reviewed_candidates: true
+
+reporting:
+  preserve_candidate_identity: true
+  preserve_family_identity: true
+  retain_fold_predictions: true
+  report_family_errors: true
+  report_model_configuration: true
+  report_random_seed: true
+
+scientific_scope:
+  target_type: vertical_dft_electronic_energy
+  target_units: eV
+  experimental_redox_prediction: false
+  validated_cei_performance_prediction: false

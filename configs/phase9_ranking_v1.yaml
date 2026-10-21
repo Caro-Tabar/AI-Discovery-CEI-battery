@@ -1,0 +1,27 @@
+version: 1
+phase: 9
+
+prospective_dataset: data/processed/phase7_features_v1.csv
+dft_dataset: data/processed/phase8_features_v1.csv
+dft_exclusions: configs/phase8_dft_exclusions_v1.yaml
+
+ranking:
+  profile: exploratory_dual_redox_propensity
+  oxidation_column: vertical_ionization_energy_ev
+  oxidation_direction: ascending
+  electron_attachment_column: vertical_electron_affinity_ev
+  electron_attachment_direction: descending
+  composite: equal_ordinal_rank_sum
+  composite_tie_break: oxidation_rank_then_candidate_id
+
+li_association:
+  column: xtb_li_delta_energy_ev
+  policy: report_only
+
+qc:
+  retain_flagged_candidates: true
+  preserve_dft_review_flags: true
+  preserve_li_connectivity_flags: true
+
+missing_dft:
+  policy: unranked_retain_in_frozen_pool

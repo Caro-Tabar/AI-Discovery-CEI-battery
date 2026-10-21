@@ -1,0 +1,9 @@
+validation,target,model,n_folds,n_predictions,n_unique_candidates,mae_ev,rmse_ev
+primary,ionization_energy,ridge,25,280,56,0.19537443658738218,0.24059169098434632
+primary,ionization_energy,extra_trees,25,280,56,0.14678445950074856,0.2152175583906094
+primary,electron_affinity,ridge,25,280,56,0.2016626589732978,0.25569587576370667
+primary,electron_affinity,extra_trees,25,280,56,0.13469376483593398,0.206168510492717
+family,ionization_energy,ridge,6,56,56,0.2700734887741605,0.3485751477637926
+family,ionization_energy,extra_trees,6,56,56,0.3368545293731883,0.4212593077149878
+family,electron_affinity,ridge,6,56,56,0.4086657008497368,0.4523770365869405
+family,electron_affinity,extra_trees,6,56,56,0.34243858855073545,0.39523360358443144

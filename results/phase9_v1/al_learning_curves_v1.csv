@@ -1,0 +1,221 @@
+seed,strategy,round,n_labeled,target,n_test,mae_ev,rmse_ev,n_model_warnings,model_warnings_json
+1729,uncertainty,0,12,ionization_energy,12,0.2515624889446642,0.3396826103495346,0,[]
+1729,uncertainty,0,12,electron_affinity,12,0.20565346929621597,0.25282144806804263,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,1,14,ionization_energy,12,0.33182753316331337,0.46083303587879476,0,[]
+1729,uncertainty,1,14,electron_affinity,12,0.2159475922160298,0.2518041537588568,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,2,16,ionization_energy,12,0.2565540340353733,0.3756801075601787,0,[]
+1729,uncertainty,2,16,electron_affinity,12,0.2269351219416177,0.2681278712858139,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,3,18,ionization_energy,12,0.24690750506094003,0.4084577791833757,0,[]
+1729,uncertainty,3,18,electron_affinity,12,0.17799136421723716,0.2684417264304514,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,4,20,ionization_energy,12,0.21569167619389407,0.34229600073458366,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,4,20,electron_affinity,12,0.1868496685688659,0.25630819145166067,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,5,22,ionization_energy,12,0.27486552772895356,0.39894014105068043,0,[]
+1729,uncertainty,5,22,electron_affinity,12,0.17569633000848994,0.24880457682144663,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,6,24,ionization_energy,12,0.25274982260729745,0.3847750677784419,0,[]
+1729,uncertainty,6,24,electron_affinity,12,0.11151278305233585,0.14438916265207952,0,[]
+1729,uncertainty,7,26,ionization_energy,12,0.19920144379014038,0.34675714166923916,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,7,26,electron_affinity,12,0.11613306675804243,0.14507712095408834,0,[]
+1729,uncertainty,8,28,ionization_energy,12,0.20073536849699272,0.36644990963275026,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,uncertainty,8,28,electron_affinity,12,0.1256100424203346,0.1466841084461343,0,[]
+1729,uncertainty,9,30,ionization_energy,12,0.18003129113246805,0.27716355450303687,0,[]
+1729,uncertainty,9,30,electron_affinity,12,0.12852147617667162,0.15127492892323752,0,[]
+1729,uncertainty,10,32,ionization_energy,12,0.18401100561251038,0.2863391181618681,0,[]
+1729,uncertainty,10,32,electron_affinity,12,0.14968044483371212,0.16369666511689607,0,[]
+1729,random,0,12,ionization_energy,12,0.2515624889446642,0.3396826103495346,0,[]
+1729,random,0,12,electron_affinity,12,0.20565346929621597,0.25282144806804263,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,1,14,ionization_energy,12,0.33125607819993896,0.40698793622173113,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,1,14,electron_affinity,12,0.19873756015573538,0.23881362397247824,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,2,16,ionization_energy,12,0.3622828588226128,0.4373197955004526,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,2,16,electron_affinity,12,0.22694369537924616,0.2694249261951674,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,3,18,ionization_energy,12,0.2826612487638716,0.36669190500654164,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,3,18,electron_affinity,12,0.24880212469095309,0.28331082343522945,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,4,20,ionization_energy,12,0.27673609559105333,0.3779874527743188,0,[]
+1729,random,4,20,electron_affinity,12,0.21932081854511534,0.24753478002720167,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,5,22,ionization_energy,12,0.2788610740160064,0.38303395380117355,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,5,22,electron_affinity,12,0.14471585524404026,0.18569346757509658,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1729,random,6,24,ionization_energy,12,0.3144725286286716,0.4782391117512923,0,[]
+1729,random,6,24,electron_affinity,12,0.12582530858485017,0.15664028456060886,0,[]
+1729,random,7,26,ionization_energy,12,0.2832663234349327,0.5051954323820737,0,[]
+1729,random,7,26,electron_affinity,12,0.1275767488146569,0.1640033026428419,0,[]
+1729,random,8,28,ionization_energy,12,0.27049636756263107,0.4723647232503984,0,[]
+1729,random,8,28,electron_affinity,12,0.14265044221955386,0.17136984397833488,0,[]
+1729,random,9,30,ionization_energy,12,0.2451797529405871,0.3967520165414213,0,[]
+1729,random,9,30,electron_affinity,12,0.15567062577284133,0.1881819745067191,0,[]
+1729,random,10,32,ionization_energy,12,0.24002305472737628,0.3848530454595498,0,[]
+1729,random,10,32,electron_affinity,12,0.15558023811814206,0.1863538083475746,0,[]
+1730,uncertainty,0,12,ionization_energy,12,0.3204852234705125,0.372516684618122,0,[]
+1730,uncertainty,0,12,electron_affinity,12,0.29334787922698286,0.3585250013571113,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,uncertainty,1,14,ionization_energy,12,0.25509863240281083,0.3058440010378982,0,[]
+1730,uncertainty,1,14,electron_affinity,12,0.22892285586453295,0.28850215413354346,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,uncertainty,2,16,ionization_energy,12,0.24976481740312276,0.3057613113956132,0,[]
+1730,uncertainty,2,16,electron_affinity,12,0.22971058711225886,0.28559077112864484,0,[]
+1730,uncertainty,3,18,ionization_energy,12,0.19678569495108503,0.2391386223618809,0,[]
+1730,uncertainty,3,18,electron_affinity,12,0.21457475504151172,0.2866848128728575,0,[]
+1730,uncertainty,4,20,ionization_energy,12,0.1583583472382677,0.20597728176760324,0,[]
+1730,uncertainty,4,20,electron_affinity,12,0.1587876426975427,0.2055851620672381,0,[]
+1730,uncertainty,5,22,ionization_energy,12,0.17318970922638677,0.20617120343857295,0,[]
+1730,uncertainty,5,22,electron_affinity,12,0.148302657087048,0.20601887263158725,0,[]
+1730,uncertainty,6,24,ionization_energy,12,0.18488966749042124,0.21165448497677614,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,uncertainty,6,24,electron_affinity,12,0.14909714236566282,0.20283659893557876,0,[]
+1730,uncertainty,7,26,ionization_energy,12,0.180911746711831,0.22428279898800957,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,uncertainty,7,26,electron_affinity,12,0.15896905130811692,0.23812614245955754,0,[]
+1730,uncertainty,8,28,ionization_energy,12,0.14533260826674158,0.17499410846302296,0,[]
+1730,uncertainty,8,28,electron_affinity,12,0.16020808066640344,0.2414532184664027,0,[]
+1730,uncertainty,9,30,ionization_energy,12,0.14497807071568536,0.18094021380292008,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,uncertainty,9,30,electron_affinity,12,0.16295039702893666,0.24612237649139793,0,[]
+1730,uncertainty,10,32,ionization_energy,12,0.12592918437769698,0.165863799661755,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,uncertainty,10,32,electron_affinity,12,0.1568550553577399,0.2383455259660347,0,[]
+1730,random,0,12,ionization_energy,12,0.3204852234705125,0.372516684618122,0,[]
+1730,random,0,12,electron_affinity,12,0.29334787922698286,0.3585250013571113,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1730,random,1,14,ionization_energy,12,0.2608430517114207,0.31838647291298205,0,[]
+1730,random,1,14,electron_affinity,12,0.253293540573537,0.32959346342685586,0,[]
+1730,random,2,16,ionization_energy,12,0.24616633568569654,0.3165191008813351,0,[]
+1730,random,2,16,electron_affinity,12,0.19566756592830079,0.2791388923614559,0,[]
+1730,random,3,18,ionization_energy,12,0.2613343373623886,0.3175523788677782,0,[]
+1730,random,3,18,electron_affinity,12,0.13798671195764972,0.19348480225063225,0,[]
+1730,random,4,20,ionization_energy,12,0.24536501081213977,0.30811696008024975,0,[]
+1730,random,4,20,electron_affinity,12,0.13319035649115357,0.19292654217110394,0,[]
+1730,random,5,22,ionization_energy,12,0.2393146300811717,0.3040988264295533,0,[]
+1730,random,5,22,electron_affinity,12,0.11508296118229643,0.18596531817876144,0,[]
+1730,random,6,24,ionization_energy,12,0.23295205759411694,0.3031255391786873,0,[]
+1730,random,6,24,electron_affinity,12,0.1132495159962007,0.1907842105855916,0,[]
+1730,random,7,26,ionization_energy,12,0.17800885627582516,0.23366149829375843,0,[]
+1730,random,7,26,electron_affinity,12,0.12292641115420866,0.200180890010652,0,[]
+1730,random,8,28,ionization_energy,12,0.15870216947754937,0.1972077889139582,0,[]
+1730,random,8,28,electron_affinity,12,0.1460762251641457,0.24627735364267436,0,[]
+1730,random,9,30,ionization_energy,12,0.1783509265690185,0.23048199734006855,0,[]
+1730,random,9,30,electron_affinity,12,0.14793618719808252,0.2575934630499788,0,[]
+1730,random,10,32,ionization_energy,12,0.15167272023316794,0.19263339645753233,0,[]
+1730,random,10,32,electron_affinity,12,0.14470180636200755,0.24122532063835073,0,[]
+1731,uncertainty,0,12,ionization_energy,12,0.3732801417646894,0.5730420693930213,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,0,12,electron_affinity,12,0.21654127803555712,0.2754978191097943,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,1,14,ionization_energy,12,0.3160184475204257,0.43914559033830575,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,1,14,electron_affinity,12,0.1905273895109376,0.25224988598240144,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,2,16,ionization_energy,12,0.2825767069731389,0.4072390044182932,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,2,16,electron_affinity,12,0.2034208637232382,0.2593791324279865,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,3,18,ionization_energy,12,0.27671136124126594,0.3995992492063399,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,3,18,electron_affinity,12,0.19544870262753689,0.2621873332339673,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,4,20,ionization_energy,12,0.16317926940777405,0.29389488314489404,0,[]
+1731,uncertainty,4,20,electron_affinity,12,0.14151469959705756,0.1756621434167475,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,5,22,ionization_energy,12,0.153895739956826,0.23616579920729938,0,[]
+1731,uncertainty,5,22,electron_affinity,12,0.12538856217767055,0.1534622933398684,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,uncertainty,6,24,ionization_energy,12,0.15848142697797196,0.23759909917013056,0,[]
+1731,uncertainty,6,24,electron_affinity,12,0.09764701681085892,0.12036832742797733,0,[]
+1731,uncertainty,7,26,ionization_energy,12,0.1664897521962679,0.25186076466888985,0,[]
+1731,uncertainty,7,26,electron_affinity,12,0.09942518744536377,0.1248884896880951,0,[]
+1731,uncertainty,8,28,ionization_energy,12,0.15806748449448382,0.23991333884275112,0,[]
+1731,uncertainty,8,28,electron_affinity,12,0.08760944014534093,0.12248268760855317,0,[]
+1731,uncertainty,9,30,ionization_energy,12,0.15613532826815554,0.2515309019572173,0,[]
+1731,uncertainty,9,30,electron_affinity,12,0.08358016058429779,0.1215575028113269,0,[]
+1731,uncertainty,10,32,ionization_energy,12,0.15371538432408305,0.24780182062316009,0,[]
+1731,uncertainty,10,32,electron_affinity,12,0.0945623440390394,0.12034261584056058,0,[]
+1731,random,0,12,ionization_energy,12,0.3732801417646894,0.5730420693930213,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,random,0,12,electron_affinity,12,0.21654127803555712,0.2754978191097943,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,random,1,14,ionization_energy,12,0.3389976960554763,0.5220642018291753,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,random,1,14,electron_affinity,12,0.18677589810196712,0.24098378538743848,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,random,2,16,ionization_energy,12,0.3407059548075087,0.5363369015584251,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,random,2,16,electron_affinity,12,0.1860678704643405,0.23275589478508454,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1731,random,3,18,ionization_energy,12,0.3460645515147254,0.5401636207682773,0,[]
+1731,random,3,18,electron_affinity,12,0.17546819287310292,0.22312585693912548,0,[]
+1731,random,4,20,ionization_energy,12,0.30364332658113374,0.4797413954811972,0,[]
+1731,random,4,20,electron_affinity,12,0.14489718159149076,0.20338317599715905,0,[]
+1731,random,5,22,ionization_energy,12,0.30748011274705606,0.5332009334546672,0,[]
+1731,random,5,22,electron_affinity,12,0.12983826275181068,0.16795871460238881,0,[]
+1731,random,6,24,ionization_energy,12,0.30713461709520407,0.5356616741862189,0,[]
+1731,random,6,24,electron_affinity,12,0.11723177617902043,0.15261285328500507,0,[]
+1731,random,7,26,ionization_energy,12,0.27212234833339316,0.48297453701905546,0,[]
+1731,random,7,26,electron_affinity,12,0.1231765493919731,0.156026850854382,0,[]
+1731,random,8,28,ionization_energy,12,0.2639346005926672,0.47004107690558444,0,[]
+1731,random,8,28,electron_affinity,12,0.16556089936234716,0.22320948381300812,0,[]
+1731,random,9,30,ionization_energy,12,0.26550581856140704,0.4692055839145869,0,[]
+1731,random,9,30,electron_affinity,12,0.17112452837651346,0.2293644119934627,0,[]
+1731,random,10,32,ionization_energy,12,0.264618327187714,0.4653142222099439,0,[]
+1731,random,10,32,electron_affinity,12,0.16249811201419825,0.2108303047153434,0,[]
+1732,uncertainty,0,12,ionization_energy,12,0.31085401963830894,0.4581532128248572,0,[]
+1732,uncertainty,0,12,electron_affinity,12,0.28342223597082455,0.386043488878946,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,uncertainty,1,14,ionization_energy,12,0.2286661874287199,0.327729256002923,0,[]
+1732,uncertainty,1,14,electron_affinity,12,0.19905327518623508,0.26497662506337866,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,uncertainty,2,16,ionization_energy,12,0.2484882382255124,0.34048886620398516,0,[]
+1732,uncertainty,2,16,electron_affinity,12,0.1872705896388207,0.26240966008916033,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,uncertainty,3,18,ionization_energy,12,0.22838406595126895,0.3157962365773201,0,[]
+1732,uncertainty,3,18,electron_affinity,12,0.12606280127509376,0.15417047545608648,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,uncertainty,4,20,ionization_energy,12,0.1921274047420547,0.3132670372640414,0,[]
+1732,uncertainty,4,20,electron_affinity,12,0.11154903583601315,0.157250064551796,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,uncertainty,5,22,ionization_energy,12,0.183428093854512,0.2925340463040911,0,[]
+1732,uncertainty,5,22,electron_affinity,12,0.13640592657548734,0.17277905681996156,0,[]
+1732,uncertainty,6,24,ionization_energy,12,0.16253675900079112,0.2595832550289324,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,uncertainty,6,24,electron_affinity,12,0.1287387245679367,0.16402770667611535,0,[]
+1732,uncertainty,7,26,ionization_energy,12,0.1516528227410622,0.23325072591950805,0,[]
+1732,uncertainty,7,26,electron_affinity,12,0.0999984573204017,0.13731114355283663,0,[]
+1732,uncertainty,8,28,ionization_energy,12,0.15864703273844868,0.23912577656215997,0,[]
+1732,uncertainty,8,28,electron_affinity,12,0.10573627215010346,0.13914705671220853,0,[]
+1732,uncertainty,9,30,ionization_energy,12,0.15169409482788843,0.23330718781540757,0,[]
+1732,uncertainty,9,30,electron_affinity,12,0.10810449785907388,0.14180674742730254,0,[]
+1732,uncertainty,10,32,ionization_energy,12,0.14501687695783252,0.23453037760213236,0,[]
+1732,uncertainty,10,32,electron_affinity,12,0.10624743563057187,0.13959885871599717,0,[]
+1732,random,0,12,ionization_energy,12,0.31085401963830894,0.4581532128248572,0,[]
+1732,random,0,12,electron_affinity,12,0.28342223597082455,0.386043488878946,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,1,14,ionization_energy,12,0.2997244859090531,0.4208164464940511,0,[]
+1732,random,1,14,electron_affinity,12,0.3094516431120269,0.4146650296640249,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,2,16,ionization_energy,12,0.24354920762777188,0.3221845128059084,0,[]
+1732,random,2,16,electron_affinity,12,0.14901156605880647,0.24539593513941946,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,3,18,ionization_energy,12,0.2140331845694373,0.28278751712316813,0,[]
+1732,random,3,18,electron_affinity,12,0.12704748708458777,0.22610992557764265,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,4,20,ionization_energy,12,0.2017511420770425,0.2747881551628575,0,[]
+1732,random,4,20,electron_affinity,12,0.1456109218066696,0.2325461968946268,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,5,22,ionization_energy,12,0.20173549453955256,0.2769126501115464,0,[]
+1732,random,5,22,electron_affinity,12,0.12392391388074353,0.21061661717483385,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,6,24,ionization_energy,12,0.18666804140520007,0.2814157526229693,0,[]
+1732,random,6,24,electron_affinity,12,0.12442942969271749,0.21176414189066653,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,7,26,ionization_energy,12,0.2043923845617357,0.33106147095584376,0,[]
+1732,random,7,26,electron_affinity,12,0.1168689447184167,0.1988568560933817,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1732,random,8,28,ionization_energy,12,0.20820143979480968,0.3418604035759183,0,[]
+1732,random,8,28,electron_affinity,12,0.12675955309738116,0.19874585911903345,0,[]
+1732,random,9,30,ionization_energy,12,0.17665893976694166,0.3064754741329238,0,[]
+1732,random,9,30,electron_affinity,12,0.09943893676039302,0.12091442292000527,0,[]
+1732,random,10,32,ionization_energy,12,0.17165153236721156,0.288240653723559,0,[]
+1732,random,10,32,electron_affinity,12,0.10665159155090852,0.14277908992855168,0,[]
+1733,uncertainty,0,12,ionization_energy,12,0.37871473368262626,0.4454297544017427,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,0,12,electron_affinity,12,0.21367858578800844,0.3277893963252157,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,1,14,ionization_energy,12,0.32819445827183374,0.38270011230727863,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,1,14,electron_affinity,12,0.18051127999297364,0.25029090223460876,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,2,16,ionization_energy,12,0.3084665479552713,0.3609280842045339,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,2,16,electron_affinity,12,0.2583381607811455,0.34986267801025533,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,3,18,ionization_energy,12,0.23823698369023658,0.28710775844278347,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,3,18,electron_affinity,12,0.23766587322285151,0.34451278491351073,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,4,20,ionization_energy,12,0.2377272372731989,0.2910053899556015,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,4,20,electron_affinity,12,0.2406319706262717,0.3556875423025856,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,5,22,ionization_energy,12,0.2326378987461913,0.3023880383374105,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,5,22,electron_affinity,12,0.11323070699706594,0.18086515574700132,0,[]
+1733,uncertainty,6,24,ionization_energy,12,0.2147334520011336,0.2812459531053447,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,6,24,electron_affinity,12,0.10702612017085111,0.18366302488928776,0,[]
+1733,uncertainty,7,26,ionization_energy,12,0.18300468048879356,0.24204225491621098,0,[]
+1733,uncertainty,7,26,electron_affinity,12,0.10820724457443787,0.173842584929118,0,[]
+1733,uncertainty,8,28,ionization_energy,12,0.182782651120612,0.2509247598401657,0,[]
+1733,uncertainty,8,28,electron_affinity,12,0.12584194936974671,0.16268576442604676,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,uncertainty,9,30,ionization_energy,12,0.18353049208070046,0.260264189202615,0,[]
+1733,uncertainty,9,30,electron_affinity,12,0.10344965604961166,0.17110311338235168,0,[]
+1733,uncertainty,10,32,ionization_energy,12,0.18455629029474255,0.2560968943422684,0,[]
+1733,uncertainty,10,32,electron_affinity,12,0.10366117090503808,0.16906668134280145,0,[]
+1733,random,0,12,ionization_energy,12,0.37871473368262626,0.4454297544017427,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,0,12,electron_affinity,12,0.21367858578800844,0.3277893963252157,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,1,14,ionization_energy,12,0.4005734615614583,0.48147015435846635,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,1,14,electron_affinity,12,0.22231623858028396,0.3425662593057684,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,2,16,ionization_energy,12,0.4329101307424596,0.5180878394406743,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,2,16,electron_affinity,12,0.21251166152089582,0.35132316583195555,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,3,18,ionization_energy,12,0.40455448246306,0.48062232393629856,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,3,18,electron_affinity,12,0.200499317469095,0.3424056004694624,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,4,20,ionization_energy,12,0.4145122398231142,0.49218212295073444,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,4,20,electron_affinity,12,0.20256965526779158,0.3297798727804953,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,5,22,ionization_energy,12,0.3220023661139813,0.40556220334613735,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,5,22,electron_affinity,12,0.21909299620781664,0.33177957254985757,1,"[""ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.""]"
+1733,random,6,24,ionization_energy,12,0.2760353902714518,0.3632786440460878,0,[]
+1733,random,6,24,electron_affinity,12,0.20641052129787904,0.3298247510097962,0,[]
+1733,random,7,26,ionization_energy,12,0.30327336785777953,0.40169327734032373,0,[]
+1733,random,7,26,electron_affinity,12,0.20332234008640515,0.30367187990095645,0,[]
+1733,random,8,28,ionization_energy,12,0.3067481953054298,0.4065747277007156,0,[]
+1733,random,8,28,electron_affinity,12,0.1984234697112296,0.3058436487324716,0,[]
+1733,random,9,30,ionization_energy,12,0.2835044747649947,0.3977510624843024,0,[]
+1733,random,9,30,electron_affinity,12,0.12318647810906037,0.1554532836653587,0,[]
+1733,random,10,32,ionization_energy,12,0.28520159449624566,0.4022522011184615,0,[]
+1733,random,10,32,electron_affinity,12,0.08287023798666893,0.12005631213701866,0,[]

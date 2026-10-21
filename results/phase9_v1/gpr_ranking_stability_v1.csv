@@ -1,0 +1,61 @@
+candidate_id,preferred_name,candidate_family,dft_status,dft_dual_redox_rank,gpr_median_rank,gpr_min_rank,gpr_max_rank,gpr_rank_range,gpr_top10_frequency,gpr_mean_ie_std_ev,gpr_mean_ea_std_ev,manual_review_flag
+CEI-0054,Rhodanine,mixed_s_o_n,complete,1,3,1,14,13,0.6,0.6063526489648148,0.44454393714009416,True
+CEI-0037,Diphenyl sulfide,thioether_or_disulfide,complete,2,2,2,6,4,1.0,0.624818652581681,0.4726306797061161,False
+CEI-0035,Thioanisole,thioether_or_disulfide,complete,3,1,1,3,2,1.0,0.3132196412521934,0.32618583268340573,False
+CEI-0057,Glycyl-L-methionine,mixed_s_o_n,complete,4,16,13,26,13,0.0,0.42882054680052134,0.4235067616026093,False
+CEI-0048,p-Toluenesulfonamide,sulfonate_or_sulfonamide,complete,5,10,8,14,6,0.6,0.14741169497509626,0.15622895744165144,False
+CEI-0044,N-Methyl-p-toluenesulfonamide,sulfonate_or_sulfonamide,complete,6,4,2,6,4,1.0,0.17123848542052544,0.19226964857909803,False
+CEI-0050,N-Ethyl-p-toluenesulfonamide,sulfonate_or_sulfonamide,complete,7,12,8,14,6,0.4,0.1834990088969907,0.2260534540174884,False
+CEI-0047,Benzenesulfonamide,sulfonate_or_sulfonamide,complete,8,5,4,7,3,1.0,0.19248485149410194,0.19548585031961205,False
+CEI-0056,L-Ethionine,mixed_s_o_n,complete,9,17,15,19,4,0.0,0.1444449469583068,0.14285075852217533,False
+CEI-0032,Dipropyl disulfide,thioether_or_disulfide,complete,10,11,6,16,10,0.4,0.08924532436715313,0.10344065651876733,False
+CEI-0034,Dibutyl disulfide,thioether_or_disulfide,complete,11,11,10,14,4,0.4,0.08981611666198658,0.10857626927664639,False
+CEI-0040,Dimethyl disulfide,thioether_or_disulfide,complete,12,10,8,15,7,0.6,0.11786592795007024,0.12452894470874767,False
+CEI-0033,Diethyl disulfide,thioether_or_disulfide,complete,13,7,3,15,12,0.6,0.07771964216486071,0.10403872369284357,False
+CEI-0055,L-Methionine,mixed_s_o_n,complete,14,9,3,14,11,0.6,0.11976528397099297,0.12947984446671143,False
+CEI-0038,Allyl methyl sulfide,thioether_or_disulfide,complete,15,17,8,18,10,0.4,0.21453288061650047,0.2282013987850479,False
+CEI-0039,Diallyl sulfide,thioether_or_disulfide,complete,16,11,5,13,8,0.4,0.273448051358342,0.27696892323089856,False
+CEI-0052,N-(Aminocarbonyl)-L-cysteine,mixed_s_o_n,complete,17,22,20,24,4,0.0,0.29543600752106924,0.2913362252363306,False
+CEI-0008,"4,5-Dimethyl ethylene sulfite",sulfite,complete,18,20,18,21,3,0.0,0.11038402033054227,0.12485204956587029,False
+CEI-0010,Ethylene sulfite,sulfite,complete,19,24,23,25,2,0.0,0.11789109340503362,0.11535830883597048,False
+CEI-0058,N-Acetyl-L-cysteine,mixed_s_o_n,complete,20,23,18,25,7,0.0,0.20157330087087336,0.2661088492927561,False
+CEI-0009,"1,2-Propylene sulfite",sulfite,complete,21,21,19,24,5,0.0,0.10463053398833598,0.10320800237494887,False
+CEI-0027,Tetramethylene sulfoxide,sulfone_or_sulfoxide,complete,22,16,15,20,5,0.0,0.22804092539937632,0.29290998608140195,False
+CEI-0053,Captopril,mixed_s_o_n,complete,23,6,4,7,3,1.0,0.2764172610385682,0.271075545785758,False
+CEI-0015,"1,3-Propene sultone",sulfate_or_sultone,complete,24,20,15,23,8,0.0,0.35436442610241464,0.33081975483570586,False
+CEI-0006,Dipropyl sulfite,sulfite,complete,25,32,28,33,5,0.0,0.08290378870001841,0.10018282004033856,False
+CEI-0007,Diethyl sulfite,sulfite,complete,26,34,30,34,4,0.0,0.0691014350582079,0.08860628375837643,False
+CEI-0004,Diisopropyl sulfite,sulfite,complete,27,30,27,34,7,0.0,0.09825128682510459,0.10941921998837671,False
+CEI-0026,Dimethyl sulfoxide,sulfone_or_sulfoxide,complete,28,37,36,37,1,0.0,0.10986949600534338,0.11005601977675447,False
+CEI-0041,Ethyl methyl sulfide,thioether_or_disulfide,complete,29,23,22,27,5,0.0,0.11430275045780215,0.12321939425726469,False
+CEI-0036,Diethyl sulfide,thioether_or_disulfide,complete,30,30,28,31,3,0.0,0.11477948713937089,0.11304597660674157,False
+CEI-0046,3-(Methylsulfanyl)propyl methanesulfonate,sulfonate_or_sulfonamide,complete,31,38,32,41,9,0.0,0.3526963536013488,0.3875356468467069,False
+CEI-0005,Trimethylene sulfite,sulfite,complete,32,25,21,28,7,0.0,0.20324784310943753,0.21504316170114748,False
+CEI-0042,Diisopropyl sulfide,thioether_or_disulfide,complete,33,29,29,33,4,0.0,0.12220048266730925,0.1301127046805084,False
+CEI-0002,Dibutyl sulfite,sulfite,complete,34,26,26,29,3,0.0,0.09391172937706789,0.08208552621055011,False
+CEI-0003,Ethyl methyl sulfite,sulfite,complete,35,36,35,38,3,0.0,0.1004920160777037,0.09289959899275119,False
+CEI-0030,Ethyl methyl sulfoxide,sulfone_or_sulfoxide,complete,36,33,28,38,10,0.0,0.11077856652146782,0.09631983058284646,False
+CEI-0022,Diethyl sulfoxide,sulfone_or_sulfoxide,complete,37,33,27,35,8,0.0,0.10817696049288715,0.11867766027606187,False
+CEI-0001,Dimethyl sulfite,sulfite,complete,38,35,32,35,3,0.0,0.1086186791196201,0.11233666809819046,False
+CEI-0023,3-Methylsulfolane,sulfone_or_sulfoxide,complete,39,42,42,42,0,0.0,0.09082995508818084,0.10306062219281217,False
+CEI-0025,Sulfolane,sulfone_or_sulfoxide,complete,40,39,38,41,3,0.0,0.11212549797050853,0.1042744882931139,False
+CEI-0045,Methanesulfonamide,sulfonate_or_sulfonamide,complete,41,50,45,55,10,0.0,0.3040738215500461,0.26354209799695333,False
+CEI-0017,Propylene sulfate,sulfate_or_sultone,complete,42,45,43,48,5,0.0,0.10103344287655074,0.11174813314010347,False
+CEI-0020,Ethylene sulfate,sulfate_or_sultone,complete,43,40,39,41,2,0.0,0.1274600126750339,0.1490384312180991,False
+CEI-0043,Propyl methanesulfonate,sulfonate_or_sulfonamide,complete,44,53,50,55,5,0.0,0.11514499883761314,0.11704815082073465,False
+CEI-0028,Dipropyl sulfone,sulfone_or_sulfoxide,complete,45,48,43,49,6,0.0,0.07809530426334323,0.11414559059284426,False
+CEI-0029,Diethyl sulfone,sulfone_or_sulfoxide,complete,46,44,43,46,3,0.0,0.07474700861250141,0.08364145888534574,False
+CEI-0031,Ethyl methyl sulfone,sulfone_or_sulfoxide,complete,47,51,47,51,4,0.0,0.07036514894202603,0.11421805978506522,False
+CEI-0049,Methyl methanesulfonate,sulfonate_or_sulfonamide,complete,48,45,44,47,3,0.0,0.12399717793495536,0.13082842661387117,False
+CEI-0012,"1,3-Propane sultone",sulfate_or_sultone,complete,49,40,39,41,2,0.0,0.11548656156518425,0.1282266749307494,False
+CEI-0018,Trimethylene sulfate,sulfate_or_sultone,complete,50,49,48,52,4,0.0,0.12391195664424709,0.12961114710747382,False
+CEI-0016,"1,4-Butane sultone",sulfate_or_sultone,complete,51,46,43,50,7,0.0,0.10429987786532151,0.137497118577341,False
+CEI-0024,Dimethyl sulfone,sulfone_or_sulfoxide,complete,52,49,47,51,4,0.0,0.11727650763082598,0.12068563454163693,False
+CEI-0014,Ethyl methyl sulfate,sulfate_or_sultone,complete,53,55,52,56,4,0.0,0.04394504526375358,0.10785421066695917,False
+CEI-0019,Dimethyl sulfate,sulfate_or_sultone,complete,54,54,53,56,3,0.0,0.12451699123124729,0.1369078180956982,False
+CEI-0011,Diethyl sulfate,sulfate_or_sultone,complete,55,54,52,56,4,0.0,0.0807421438953625,0.10841318019844629,False
+CEI-0013,Diisopropyl sulfate,sulfate_or_sultone,complete,56,53,47,56,9,0.0,0.10998765198590134,0.13219256087602932,False
+CEI-0021,Dibutyl sulfone,sulfone_or_sulfoxide,incomplete,,,,,,,,,
+CEI-0051,Ethyl methanesulfonate,sulfonate_or_sulfonamide,incomplete,,,,,,,,,
+CEI-0059,Penicillamine,mixed_s_o_n,incomplete,,,,,,,,,
+CEI-0060,L-Cysteine,mixed_s_o_n,incomplete,,,,,,,,,

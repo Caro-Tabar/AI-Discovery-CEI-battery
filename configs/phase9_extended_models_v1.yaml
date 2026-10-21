@@ -1,0 +1,24 @@
+version: 1
+base_ml_config: configs/phase9_ml_v1.yaml
+random_seed: 1729
+
+models:
+  gaussian_process:
+    kernel: rbf_plus_white
+    signal_variance: 1.0
+    signal_bounds: [0.01, 100.0]
+    length_scale: 1.0
+    length_bounds: [0.01, 100.0]
+    noise_level: 0.05
+    noise_bounds: [0.00001, 1.0]
+    numerical_alpha: 0.000001
+    n_restarts_optimizer: 0
+
+  mlp:
+    hidden_layer_sizes: [8]
+    activation: tanh
+    solver: lbfgs
+    alpha: 1.0
+    max_iter: 800
+    max_fun: 10000
+    tol: 0.0001

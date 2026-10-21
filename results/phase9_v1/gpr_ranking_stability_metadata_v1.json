@@ -1,0 +1,11 @@
+{
+  "interpretation": "Top-10 frequency is a cross-validation stability diagnostic, not a calibrated probability. Predictive standard deviations describe surrogate uncertainty, not DFT calculation uncertainty. The four DFT-incomplete candidates have no observed DFT ranking.",
+  "method": "repeated_CV_out_of_fold_GPR",
+  "repetitions": 5,
+  "source_sha256": {
+    "gpr_predictions": "c1c44b7970f09f6f6a56e95035d10f324646cb9d14667f4bda222e6cea0491b9",
+    "ranking": "cbc2b1f585fc983e7b2e9d80a91ea6e05c484238aa60d657d8e8a12cd41c9856"
+  },
+  "top_k": 10,
+  "version": 1
+}

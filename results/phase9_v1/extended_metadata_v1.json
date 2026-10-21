@@ -1,0 +1,79 @@
+{
+  "features": [
+    "xtb_homo_ev",
+    "xtb_lumo_ev",
+    "xtb_dipole_debye",
+    "xtb_li_delta_energy_ev",
+    "rdkit_tpsa_a2",
+    "rdkit_fraction_csp3",
+    "rdkit_ring_count",
+    "rdkit_o_count"
+  ],
+  "input_sha256": {
+    "base_config": "2556ec52b7520790eab625a2e895c792916a81555cd39ee7c08a752ee6ae4a70",
+    "extended_config": "507c9509e1039da553c2920d903144dd884b96ddb5c9823ddf90870e12d6368f",
+    "labeled": "ef2517ea38888d916eb69de3611cb7f47acb1c95246da518e47b80bfc3d4d851",
+    "prospective": "9a1ed7f2f050156c2cec7a021b3dba014fe84646922f1e68937dc92bf17714e8"
+  },
+  "models": {
+    "gaussian_process": {
+      "kernel": "rbf_plus_white",
+      "length_bounds": [
+        0.01,
+        100.0
+      ],
+      "length_scale": 1.0,
+      "n_restarts_optimizer": 0,
+      "noise_bounds": [
+        1e-05,
+        1.0
+      ],
+      "noise_level": 0.05,
+      "numerical_alpha": 1e-06,
+      "signal_bounds": [
+        0.01,
+        100.0
+      ],
+      "signal_variance": 1.0
+    },
+    "mlp": {
+      "activation": "tanh",
+      "alpha": 1.0,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "max_fun": 10000,
+      "max_iter": 800,
+      "solver": "lbfgs",
+      "tol": 0.0001
+    }
+  },
+  "note": "All predictions are outer-fold held out. GPR intervals are model-based and not guaranteed calibrated. DFT targets are vertical electronic energies.",
+  "numpy_version": "2.4.6",
+  "phase": 9,
+  "python_version": "3.11.16",
+  "scikit_learn_version": "1.9.1",
+  "seed": 1729,
+  "validation": {
+    "family_stress_test": {
+      "group_column": "candidate_family",
+      "method": "leave_one_group_out"
+    },
+    "inner_model_selection": {
+      "method": "kfold",
+      "n_splits": 4,
+      "shuffle": true
+    },
+    "metrics": [
+      "mae_ev",
+      "rmse_ev"
+    ],
+    "primary": {
+      "method": "repeated_kfold",
+      "n_repeats": 5,
+      "n_splits": 5
+    },
+    "random_seed": 1729
+  },
+  "version": 1
+}

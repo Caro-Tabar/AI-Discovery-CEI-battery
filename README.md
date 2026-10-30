@@ -1,5 +1,5 @@
 
-<img src="CEI-Scout_ From Candidates to Decisions.png" alt="CEI Scout">
+<img src="poster.png" alt="CEI Scout">
 
 # CEI-Scout
 

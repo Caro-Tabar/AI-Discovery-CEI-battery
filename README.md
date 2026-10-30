@@ -1,5 +1,5 @@
 
-![CEI Scout](CEI-Scout_ From Candidates to Decisions.png)
+<img src="CEI-Scout_ From Candidates to Decisions.png" alt="CEI Scout">
 
 # CEI-Scout
 

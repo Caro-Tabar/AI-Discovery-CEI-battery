@@ -1,3 +1,6 @@
+
+![CEI Scout](CEI-Scout_ From Candidates to Decisions.png)
+
 # CEI-Scout
 
 **Physics-informed molecular screening and machine learning for cathode-electrolyte interphase (CEI) additive discovery.**
